@@ -1,0 +1,827 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK2312" />
+<title>青岛华凌科技有限公司开发区分公司</title>
+<meta name="Keywords" content="APP开发制作">
+<meta name="Description" content="青岛华凌科技有限公司开发区分公司是一家集工控行业软硬件产品研发，DCS、PLC控制系统设计集成，电气仪表等自动化设备代理、销售为一体的高科技公司。">
+<meta name="Author" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+<meta content="telephone=no" name="format-detection" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script/jquery.min.js"></script>
+<script type="text/javascript" src="script/loadimage.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery(".img").LoadImage({width:150,height:140});
+  var cid=getQueryString("cid");
+  var content="";
+  if(cid==3){
+  		$(".title").text("行业解决方案");
+		
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=68\"><img src=\"uploads/image/20180330/1522381429.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">回头客餐饮APP-餐饮业综合营销管理系统解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=67\"><img src=\"uploads/image/20180330/1522379058.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">产品赋码追溯系统解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/1522381462.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">产品二维码信息查询系统</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";;
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201802281637463883.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">石墨负极材料生产自动化解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201610161712171010.png\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">润滑油行业自动化典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201611011101083564.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">锅炉行业自动化控制典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201610161722427506.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">脱硝自动化控制系统解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201612091432161472.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">农药生产制剂自动化控制解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201610310934173237.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">减水剂行业自动化典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201611011345204591.png\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">硫磺制酸工程自动化典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201611020955445453.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">甲醛生产自动化控制典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/20161103103402752.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">轻工制药行业典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201611031529558546.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">炼油石化行业典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201610161722117055.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">新能源行业自动化控制解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+		content+="<li>";
+		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+		content+="<tbody>";
+		content+="<tr>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=66\"><img src=\"uploads/image/20180330/201610161722284654.jpg\" width=\"250\"></a></td>";
+		content+="</tr>";
+		content+="<tr>";
+		content+="<td height=\"35\" align=\"center\">医疗化工行业控制典型解决方案</td>";
+		content+="</tr>";
+		content+="</tbody>";
+		content+="</table>";
+		content+="</li>";
+  }
+  else if(cid==15){
+  		$(".title").text("HCP仪器仪表");
+  
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=15&amp;id=101\"><img src=\"uploads/image/20180808/1533725212.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">HCP-DS2680小直径液位变送器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=15&amp;id=100\"><img src=\"uploads/image/20180808/1533719455.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">HCP-DS2610金属铠装液位变送器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=15&amp;id=99\"><img src=\"uploads/image/20180808/1533718374.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">HCP-DS2650投入式防雷液位变送器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==16){
+  		$(".title").text("上润仪器仪表");
+		
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=16&amp;id=45\"><img src=\"uploads/image/20171011/1507703077.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">智能三相综合电力仪表</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=16&amp;id=44\"><img src=\"uploads/image/20171011/1507702847.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">智能单相综合电力仪表</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=16&amp;id=43\"><img src=\"uploads/image/20171011/1507705028.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">WP-R80 单色无纸记录仪</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==17){
+  		$(".title").text("称重仪表");
+  
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=17&amp;id=50\"><img src=\"uploads/image/20171011/1507706396.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">称重仪表</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=17&amp;id=49\"><img src=\"uploads/image/20171011/1507706752.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">五位双显测控仪表</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=17&amp;id=48\"><img src=\"uploads/image/20171011/1507701673.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">高精度智能测控仪表</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==18){
+  		$(".title").text("流量仪表");
+		
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=18&amp;id=55\"><img src=\"uploads/image/20171011/1507708550.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">EMC型插入式电磁流量计</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=18&amp;id=54\"><img src=\"uploads/image/20171011/1507707224.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">夹持式分体型电磁流量计</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=18&amp;id=53\"><img src=\"uploads/image/20171011/1507701815.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">差压式锥型流量计</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==19){
+  		$(".title").text("无线仪表");
+		
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=19&amp;id=60\"><img src=\"uploads/image/20171011/1507707243.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">SWSN-T2无线温度变送器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=19&amp;id=59\"><img src=\"uploads/image/20171011/1507705733.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">无线漏水传感报警器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=19&amp;id=58\"><img src=\"uploads/image/20171011/1507702644.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">SWSN-YG无线烟雾探测器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==20){
+  		$(".title").text("变频器");
+		
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=20&amp;id=65\"><img src=\"uploads/image/20171011/1507702183.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">FSCZ01/02(CVF-ZC/ZS1)系列注塑一体化柜机</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=20&amp;id=64\"><img src=\"uploads/image/20171011/1507701928.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">FSCS01(CVF-S1)系列单相小功率高性能变频器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=20&amp;id=63\"><img src=\"uploads/image/20171011/1507702893.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">VFC 2600系列新一代迷你型变频器</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  else if(cid==21){
+		$(".title").text("控制柜、配电箱");
+
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810161051082665.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">三箱类配电箱</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810161044504850.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">低压配电箱</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810161022144519.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">JXF配电箱</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810161012119361.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">配电箱</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810161005293634.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">GCK型低压抽出式开关柜</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810151542405531.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">XL-21柜</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810151541024324.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">MNS低压抽屉柜</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810151400113511.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">GGD低压柜</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+		content+="<li>";
+  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
+  		content+="<tbody>";
+  		content+="<tr>";
+  		content+="<td align=\"center\"><a href=\"show.php?cid=21&amp;id=65\"><img src=\"uploads/image/20171011/201810120852368162.jpg\" width=\"250\"></a></td>";
+  		content+="</tr>";
+  		content+="<tr>";
+  		content+="<td height=\"35\" align=\"center\">GCS型低压抽出式开关柜</td>";
+  		content+="</tr>";
+  		content+="</tbody>";
+  		content+="</table>";
+  		content+="</li>";
+  }
+  $("#pro").html(content);
+});
+
+
+function getQueryString(name){
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?946fd8cbc443d1118b4fbd330f5cc71e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script type="text/javascript">
+
+$(document).ready(function() {
+
+var page=1;
+
+    $("#pro").load('page.php?cid=3&keyword=&page='+page);
+
+	if(page==5)
+	{
+	$("#more").empty();
+	}
+	
+
+$('#ajax_test2').click(function(){
+
+//$("span").html("");
+
+	  page=page+1;
+	  
+	  if(page==5)
+	  {
+	  	$("#more").empty();
+	  }
+	 
+     $.ajax({
+
+          url:'page.php?page='+ page,
+
+          type:'post',
+
+          data:'cid=3&keyword=',
+
+          timeout:15000,
+
+          beforeSend:function(XMLHttpRequest){
+
+              //alert('远程调用开始...');
+
+              $("#loading").html("<img src='images/loadingx.gif' />");
+
+         },
+
+         success:function(data,textStatus){
+
+            // alert('开始回调，状态文本值：'+textStatus+' 返回数据：'+data);
+
+			 $("#pro").append(data);
+
+             $("#loading").empty();
+
+           },
+
+          complete:function(XMLHttpRequest,textStatus){
+
+              // alert('远程调用成功，状态文本值：'+textStatus);
+
+             $("#loading").empty();
+
+           },
+
+           error:function(XMLHttpRequest,textStatus,errorThrown){
+
+              alert('没有更多商品！');
+
+             $("#loading").empty();
+
+          }
+
+       });
+
+    });
+
+	});
+
+</script>
+</head>
+
+<body>
+<div class="main">
+  <div class="logo"> <span>青岛华凌科技有限公司开发区分公司</span></div>
+<div class="seachbox_box">
+  <form method="POST" name="myform" action="gallery.php">
+    <input type="text" name="keyword" class="text" placeholder="请输入关键词" style="width: 80%;">
+    <input type="submit" name="Submit" value="" class="submit">
+  </form>
+</div>
+<div class="swipe">
+				<ul id="slider">
+                
+					<li><img  src="uploads/image/20171011/1507695124.jpg" /></li><li><img  src="uploads/image/20171011/1507694020.jpg" /></li>					
+				</ul>
+				<div id="pagenavi">
+					
+                    <a href="javascript:void(0);" class="active">1</a><a href="javascript:void(0);">2</a>					
+				</div>
+                <a href="javascript:t2.prev();"><div id='btn_prev'></div></a>
+                <a href="javascript:t2.next();"><div id='btn_next'></div></a>
+</div>
+<div class="nav">
+  <ul>
+    <li>
+		<a href="index.html">网站首页</a>
+	</li>
+	<li>
+		<a href="single.html?cid=1">关于我们</a>
+	</li>
+	<li>
+		<a href="gallery.html?cid=3">行业解决方案</a>
+	</li>
+	<li>
+		<a href="list.html?cid=6">工业4.0案例</a>
+	</li>
+	<li>
+		<a href="sort.html?cid=14">工业仪表</a>
+	</li>
+	<li>
+		<a href="message.html">在线留言</a>
+	</li>
+	<li>
+		<a href="single.html?cid=9">联系我们</a>
+	</li>  
+  </ul>
+</div>
+  <div class="about">
+    <h1 class="title">行业解决方案</h1>
+    <div id="pro" style="margin-top:10px">
+	<!--
+		 <li> 
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+				<tbody>
+				  <tr>
+					<td align="center">
+						<a href="show.php?cid=3&amp;id=68"><img src="uploads/image/20180330/1522381429.jpg" width="250"></a>
+					</td>
+				  </tr>
+				  <tr>
+					<td height="35" align="center">
+						回头客餐饮APP-餐饮业综合营销管理系统解决方案
+					</td>
+				  </tr>
+				</tbody>
+			</table>
+
+		 </li>
+		<li> 
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+				<tbody>
+				  <tr>
+					<td align="center">
+						<a href="show.php?cid=3&amp;id=67"><img src="uploads/image/20180330/1522379058.jpg" width="250"></a>
+					</td>
+				  </tr>
+				  <tr>
+					<td height="35" align="center">产品赋码追溯系统解决方案</td>
+				  </tr>
+				</tbody>
+			</table>
+		 </li>
+		 <li> 
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+				<tbody>
+				  <tr>
+					<td align="center">
+					<a href="show.php?cid=3&amp;id=66"><img src="uploads/image/20180330/1522381462.jpg" width="250"></a>
+					</td>
+				  </tr>
+				  <tr>
+					<td height="35" align="center">产品二维码信息查询系统</td>
+				  </tr>
+				</tbody>
+			</table>
+		 </li>
+		 -->
+	 </div>
+  </div>
+  <div style="width:100%; text-align:center; margin-top:6px;">
+    <div id="loading"></div>
+    <div id="more" style="margin-bottom:50px; line-height:40px;">
+      <input type="button" id="ajax_test2"  value="查看更多" style="color:#999; background:#f6f5f5; font-size:1em; width:90%; height:33px; border:0px;">
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="foot">
+ 	  版权所有 青岛华凌科技有限公司开发区分公司<br/>
+	联系电话：0532-55588351,15712773653 <br/>
+	QQ：1578569337,2624691289
+</div>
+<div id="bottom">
+	<ul>
+    	<li>
+        <a href="index.html">
+        <dl>
+            <dt><img src="images/icon_1.png" width="25" height="25" /></dt>
+            <dd>网站主页</dd>
+        </dl>
+        </a>
+        </li>
+        
+        <li>
+        <a href="map.html">
+        <dl>
+            <dt><img src="images/icon_3.png" width="25" height="25" /></dt>
+            <dd>一键地图</dd>
+        </dl>
+        </a>
+        </li>
+        
+        <li>
+        <a href="tel:0532-55588351">
+        <dl>
+            <dt><img src="images/icon_4.png" width="25" height="25" /></dt>
+            <dd>热线电话</dd>
+        </dl>
+        </a>
+        </li>
+        
+        <li>
+        <a href="sms:15712773653">
+        <dl>
+            <dt><img src="images/icon_5.png" width="25" height="25" /></dt>
+            <dd>发送短信</dd>
+        </dl>
+        </a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript" src="script/touchScroll.js"></script>
+<script type="text/javascript" src="script/touchslider.dev.js"></script>
+<script type="text/javascript">
+var active=0,
+	as=document.getElementById('pagenavi').getElementsByTagName('a');
+	
+for(var i=0;i<as.length;i++){
+	(function(){
+		var j=i;
+		as[i].onclick=function(){
+			t2.slide(j);
+			return false;
+		}
+	})();
+}
+
+var t2=new TouchSlider({id:'slider', speed:600, timeout:6000, before:function(index){
+		as[active].className='';
+		active=index;
+		as[active].className='active';
+	}});
+	
+</script>
+</div>
+</body>
+</html>
