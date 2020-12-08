@@ -218,7 +218,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=15&amp;id=100\">";
+				content+="<a href=\"show.html?cid=15&amp;id=100\">";
 					content+="<img style=\"width:100px;margin-top:57px;\" src=\"uploads/image/20180808/1533719455.jpg\">";
 				content+="</a>";
 			content+="</div>";
