@@ -1949,7 +1949,7 @@ jQuery(document).ready(function(){
 	content+="</p>";
 	
 	prenext+="<ul>";
-	prenext+="<a href=\"show.html?cid=15&amp;id=101\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=99\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="<a href=\"show.html?cid=3&amp;id=101\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=99\"><li>下一条 &gt;&gt; </li></a>";
 	prenext+="</ul>";
   }
   else if(cid==15&id==99){

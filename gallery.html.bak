@@ -108,7 +108,7 @@ jQuery(document).ready(function(){
 		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
 		content+="<tbody>";
 		content+="<tr>";
-		content+="<td align=\"center\"><a><img src=\"uploads/image/20180330/201612091432161472.jpg\" width=\"250\"></a></td>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=34\"><img src=\"uploads/image/20180330/201612091432161472.jpg\" width=\"250\"></a></td>";
 		content+="</tr>";
 		content+="<tr>";
 		content+="<td height=\"35\" align=\"center\">农药生产制剂自动化控制解决方案</td>";
@@ -132,7 +132,7 @@ jQuery(document).ready(function(){
 		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
 		content+="<tbody>";
 		content+="<tr>";
-		content+="<td align=\"center\"><a><img src=\"uploads/image/20180330/201611011345204591.png\" width=\"250\"></a></td>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=31\"><img src=\"uploads/image/20180330/201611011345204591.png\" width=\"250\"></a></td>";
 		content+="</tr>";
 		content+="<tr>";
 		content+="<td height=\"35\" align=\"center\">硫磺制酸工程自动化典型解决方案</td>";
@@ -144,7 +144,7 @@ jQuery(document).ready(function(){
 		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
 		content+="<tbody>";
 		content+="<tr>";
-		content+="<td align=\"center\"><a><img src=\"uploads/image/20180330/201611020955445453.jpg\" width=\"250\"></a></td>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=32\"><img src=\"uploads/image/20180330/201611020955445453.jpg\" width=\"250\"></a></td>";
 		content+="</tr>";
 		content+="<tr>";
 		content+="<td height=\"35\" align=\"center\">甲醛生产自动化控制典型解决方案</td>";
@@ -168,7 +168,7 @@ jQuery(document).ready(function(){
 		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
 		content+="<tbody>";
 		content+="<tr>";
-		content+="<td align=\"center\"><a><img src=\"uploads/image/20180330/201611031529558546.jpg\" width=\"250\"></a></td>";
+		content+="<td align=\"center\"><a href=\"show.html?cid=3&amp;id=33\"><img src=\"uploads/image/20180330/201611031529558546.jpg\" width=\"250\"></a></td>";
 		content+="</tr>";
 		content+="<tr>";
 		content+="<td height=\"35\" align=\"center\">炼油石化行业典型解决方案</td>";
@@ -206,7 +206,7 @@ jQuery(document).ready(function(){
   
   		content+="<li style=\"width:95%;height:180px;margin:0 auto;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=15&amp;id=101\">";
+				content+="<a href=\"show.html?cid=15&amp;id=101\">";
 					content+="<img style=\"width:100px;margin-top:40px;\" src=\"uploads/image/20180808/1533725212.jpg\">";
 				content+="</a>";
 			content+="</div>";
@@ -412,18 +412,6 @@ jQuery(document).ready(function(){
 				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">博世力士乐VFC 2600系列新一代迷你型变频器 博世力士乐VFC2600系列是采用德国设计的功能强大系统完善的全新平台打造出的新一代迷你型变频器。其核心器件采用纯进口配备，低频效果明显提升，过载性能强劲却十分节能。系统智能化防呆设计，是一款真正玲珑实惠简单可靠的变频器。 行业应用： ...</div>";
 				content+="";
 			content+="</div>";
-		/*
-  		content+="<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\">";
-  		content+="<tbody>";
-  		content+="<tr>";
-  		content+="<td align=\"center\"><a href=\"show.php?cid=20&amp;id=63\"><img src=\"uploads/image/20171011/1507702893.jpg\" width=\"250\"></a></td>";
-  		content+="</tr>";
-  		content+="<tr>";
-  		content+="<td height=\"35\" align=\"center\">VFC 2600系列新一代迷你型变频器</td>";
-  		content+="</tr>";
-  		content+="</tbody>";
-  		content+="</table>";
-		*/
   		content+="</li>";
   }
   else if(cid==21){
