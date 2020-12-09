@@ -3964,7 +3964,7 @@ jQuery(document).ready(function(){
 		content+="过程接口：M27×2外螺纹 法兰";
 	content+="</p>";
     content+="<p>";
-	content+="护套材质：GH3030 GH3039 SiC-Si陶瓷SiC陶瓷等";
+		content+="护套材质：GH3030 GH3039 SiC-Si陶瓷SiC陶瓷等";
 	content+="</p>";
 	content+="<table style=\"color:#333333;font-family:Tahoma, Arial, Helvetica, sans-serif;font-size:12px;border:medium none;width:100%;background-color:#FFFFFF;\" width=\"415\" cellspacing=\"0\" cellpadding=\"0\" border=\"1\">";
 		content+="<tbody>";
@@ -4307,6 +4307,104 @@ jQuery(document).ready(function(){
 		content+="注：特殊要求请电话咨询";
 	content+="</p>";
 
+	prenext+="<ul>";
+		prenext+="<li>没有了</li><a href=\"show.html?cid=19&amp;id=59\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
+  }
+  else if(cid==19&id==59){
+	content+="<h2>无线漏水传感报警器</h2>";
+    content+="<p>";
+		content+="本无线水浸传感器采用无线电编码数据传输,内置锂电池供电,无需现场布线,省去了常规仪表现场布线的麻烦,节省了人力及施工成本,大量使用于不适宜布线或供电的应用现场,是传统水浸变送器的理想升级换代产品。更加适合于医药、仓储、粮食行业的温湿度检测需求。";
+	content+="</p>";
+    content+="<div style=\"text-align:center\"><img src=\"uploads/image/20171011/1507705733.jpg\" width=\"300\"></div>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="技术参数：";
+	content+="</p>";
+    content+="<p>";
+		content+="输出信号：SWSN无线网络";
+	content+="</p>";
+    content+="<p>";
+		content+="调制方式：GFSK";
+	content+="</p>";
+    content+="<p>";
+		content+="频 率：430～434.79M 8个频点可设定";
+	content+="</p>";
+    content+="<p>";
+		content+="传输距离：500米(空旷环境 实测)";
+	content+="</p>";
+    content+="<p>";
+		content+="待机功耗：小于0.02毫安";
+	content+="</p>";
+    content+="<p>";
+		content+="供电方式：内置锂电池，寿命3年以上";
+	content+="</p>";
+    content+="<p>";
+		content+="工作环境：温度-20℃～60℃ 湿度＜90%";
+	content+="</p>";
+    content+="<p>";
+		content+="安装方式：壁挂安装";
+	content+="</p>";
+    content+="<p>";
+		content+="尺寸：82*52*22";
+	content+="</p>";
+
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=18&amp;id=55\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=18&amp;id=53\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
+  }
+  else if(cid==19&id==58){
+	content+="<h2>SWSN-YG无线烟雾探测器</h2>";
+    content+="<p>";
+		content+="SWSN-YG无线烟雾探测器是我公司与专业烟感厂商合作推出的一款智能组网型无线烟雾传感器，具有500米的超远传输距离和超过5年的电池使用寿命，不但能实现本地报警，还可以实现烟感的免维护无线传输并通过SWSN-G2/G3网关与本地服务器或云服务器实现数据交互和远程监控。";
+	content+="</p>";
+    content+="<div style=\"text-align:center\"><img src=\"uploads/image/20171011/1507702644.jpg\" width=\"300\"></div>";
+    content+="<p>";
+		content+="音量等级： ≥80dB";
+	content+="</p>";
+    content+="<p>";
+		content+="供电电源： DC9V层叠电池";
+	content+="</p>";
+    content+="<p>";
+		content+="烟雾灵敏度： 0.12-0.18dB/m";
+	content+="</p>";
+    content+="<p>";
+		content+="电池寿命： 2年（碱性电池，标配）";
+	content+="</p>";
+    content+="<p>";
+		content+="5年（锂电池，选配）";
+	content+="</p>";
+    content+="<p>";
+		content+="数据发送：报警触发 定时心跳包";
+	content+="</p>";
+    content+="<p>";
+		content+="调制方式：GFSK";
+	content+="</p>";
+    content+="<p>";
+		content+="频 率：433 470 900M";
+	content+="</p>";
+    content+="<p>";
+		content+="无线传输距离：500米(空旷环境)";
+	content+="</p>";
+    content+="<p>";
+		content+="工作温度： -10℃～+50℃";
+	content+="</p>";
+    content+="<p>";
+		content+="相对湿度： ≤95%RH(40℃±2℃)";
+	content+="</p>";
+    content+="<p>";
+		content+="输出形式： 声光报警 无线传输";
+	content+="</p>";
+    content+="<p>";
+		content+="执行标准： EN14604";
+	content+="</p>";
+    content+="<p>";
+		content+="重 量： 约145g（含电池）";
+	content+="</p>";
+
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=19&amp;id=59\"><li> &lt;&lt; 上一条</li></a><li>没有了</li>";
+	prenext+="</ul>";
+
 
     content+="<p>";
 	content+="";
@@ -4328,21 +4426,6 @@ jQuery(document).ready(function(){
     content+="<p style=\"font-weight:bold;\">";
 	content+="";
 	content+="</p>";
-	
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-	content+="";
-
   }
   $(".content").html(content);
   $(".prenext").html(prenext);
