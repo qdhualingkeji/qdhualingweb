@@ -268,7 +268,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=16&amp;id=43\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507705028.jpg\"></a>";
+				content+="<a href=\"show.html?cid=16&amp;id=43\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507705028.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>WP-R80 µ¥É«ÎŞÖ½¼ÇÂ¼ÒÇ</div>";
@@ -419,7 +419,7 @@ jQuery(document).ready(function(){
 
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161051082665.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161051082665.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>ÈıÏäÀàÅäµçÏä</div>";
@@ -430,7 +430,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161044504850.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=64\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161044504850.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>µÍÑ¹ÅäµçÏä</div>";
@@ -441,7 +441,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161022144519.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=63\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161022144519.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>JXFÅäµçÏä</div>";
@@ -452,7 +452,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161012119361.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=62\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161012119361.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>ÅäµçÏä</div>";
@@ -463,7 +463,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161005293634.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=61\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161005293634.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GCKĞÍµÍÑ¹³é³öÊ½¿ª¹Ø¹ñ</div>";
@@ -474,7 +474,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151542405531.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=60\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151542405531.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>XL-21¹ñ</div>";
@@ -485,7 +485,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:23px;\" src=\"uploads/image/20171011/201810151541024324.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=59\"><img style=\"width:100px;margin-top:23px;\" src=\"uploads/image/20171011/201810151541024324.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>MNSµÍÑ¹³éÌë¹ñ</div>";
@@ -496,7 +496,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151400113511.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=58\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151400113511.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GGDµÍÑ¹¹ñ</div>";
