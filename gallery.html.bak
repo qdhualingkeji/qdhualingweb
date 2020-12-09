@@ -371,7 +371,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=19&amp;id=58\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702644.jpg\"></a>";
+				content+="<a href=\"show.html?cid=19&amp;id=58\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702644.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>SWSN-YG无线烟雾探测器</div>";
@@ -385,7 +385,7 @@ jQuery(document).ready(function(){
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=20&amp;id=65\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702183.jpg\"></a>";
+				content+="<a href=\"show.html?cid=20&amp;id=65\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702183.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>FSCZ01/02(CVF-ZC/ZS1)系列注塑一体化柜机</div>";
@@ -395,7 +395,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.php?cid=20&amp;id=64\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507701928.jpg\"></a>";
+				content+="<a href=\"show.html?cid=20&amp;id=64\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507701928.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>FSCS01(CVF-S1)系列单相小功率高性能变频器</div>";
