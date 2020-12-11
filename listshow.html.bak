@@ -202,7 +202,7 @@ function getQueryString(name){
 
 <body>
 <div class="main">
-  <div class="logo"> <span>青岛华凌科技有限公司</span></div>
+  <div class="logo"> <span>青岛华凌科技有限公司开发区分公司</span></div>
 <div class="seachbox_box">
   <form method="POST" name="myform" action="gallery.php">
     <input type="text" name="keyword" class="text" placeholder="请输入关键词" style="width: 80%;">
