@@ -66,7 +66,9 @@ var _hmt = _hmt || [];
       <li>
 		  <p style="text-indent:2em;">
 			青岛华凌科技有限公司是一家集工控行业软硬件产品研发，DCS、PLC控制系统设计集成，电气仪表等自动化设备代理、销售为一体的高科技公司。青岛华凌科技有限公司
+			<!--
 			<span style="text-indent:24px;white-space:normal;">开发区分公司</span>
+			-->
 			致力于打造智能化生产车间，我公司研发的IMES生产管理软件为智能生产管理系统的核心组成部分，为实现生产智能化奠定有力的基础。
 		  </p>
 	  </li>
@@ -76,7 +78,6 @@ var _hmt = _hmt || [];
   <div class="product">
     <h1 class="title">行业解决方案</h1>
     <ul>
-      
 					<!--
 				    <li>
 						<a href="show.html?cid=3&id=68">
@@ -120,7 +121,14 @@ var _hmt = _hmt || [];
 							  <p>医疗化工行业控制典型解决方案</p>
 						</a>
 					</li>
-				     </ul>
+
+				    <li>
+						<a href="show.html?cid=3&id=69">
+							  <div><img src="uploads/image/20180330/201802281637463883.jpg" /></div>
+							  <p>石墨负极材料生产自动化解决方案</p>
+						</a>
+					</li>
+	</ul>
   </div>
    <div class="clear"></div>
   <div class="news">

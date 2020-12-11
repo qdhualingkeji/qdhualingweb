@@ -283,6 +283,7 @@ jQuery(document).ready(function(){
   else if(cid==17){
   		$(".title").text("称重仪表");
   
+		/*
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
 				content+="<a><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507706396.jpg\"></a>";
@@ -310,6 +311,57 @@ jQuery(document).ready(function(){
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>高精度智能测控仪表</div>";
 				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">暂无简介</div>";
+				content+="";
+			content+="</div>";
+  		content+="</li>";
+		*/
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:180px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=99\"><img style=\"width:100px;margin-top:58px;\" src=\"uploads/day_201202/202012021417078302.jpg\"></a>";
+			content+="</div>";
+			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+				content+="<div>CQ-505L智能称重仪表</div>";
+				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">辰麒智能称重仪表，主要适于在称重设备中作称重数字信号转换部件，该产品带有重量界限判断功能，可用于重量界限控制，带RS485 modbus通讯协议及4-20mA输出， 该产品带有LED数码显示，操作简单，便于掌握。适用于建材、化工、食品、钢铁、饲料等行业。 产品基本参数：...</div>";
+				content+="";
+			content+="</div>";
+  		content+="</li>";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:180px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=98\"><img style=\"width:100px;margin-top:64px;\" src=\"uploads/day_201202/202012021302494184.png\"></a>";
+			content+="</div>";
+			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+				content+="<div>CQ-320C悬臂梁传感器</div>";
+				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">CQ-320C悬臂梁传感器采购一端固定一端加载的安装方式，重心低，安装方便，防尘密封，性能稳定，互换性好，综合精度高。可适用化工储罐、汽车衡、电子秤、平台秤、料斗秤等，也可用于各种拉伸力和压缩力的承载和测量。 悬臂梁式钢制称重传感器，一端固定，一端加载，采用钢球传力，上下压头承载或双球头式结构，设...</div>";
+				content+="";
+			content+="</div>";
+  		content+="</li>";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:180px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=97\"><img style=\"width:100px;margin-top:47px;\" src=\"uploads/day_201202/2020120213302088.png\"></a>";
+			content+="</div>";
+			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+				content+="<div>CQ-NLF轮辐式测力称重传感器</div>";
+				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">轮辐式传感器采用优质合金钢材质，高精度、高稳定性、低外形、安装方便快速； 适用于试验机、汽车衡、仓储和大型料斗秤等。 规格：500kg、1t、2t、3t、5t、10t、15t、20t、25t、30t、50t、60t、100t、150t、200t、300t、500t。 ...</div>";
+				content+="";
+			content+="</div>";
+  		content+="</li>";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:180px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=96\"><img style=\"width:100px;margin-top:60px;\" src=\"uploads/day_201202/202012021354425319.png\"></a>";
+			content+="</div>";
+			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+				content+="<div>CQ-YJ柱式测力称重传感器</div>";
+				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">柱式测力重量传感器低外形、尺寸小、安装方便， 适用于力量测量装置。规格：12t、18t、22t、26t、33t、40t； ...</div>";
+				content+="";
+			content+="</div>";
+  		content+="</li>";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:180px;\">";
+				content+="<a><img style=\"width:100px;margin-top:52px;\" src=\"uploads/day_201202/202012021407418995.png\"></a>";
+			content+="</div>";
+			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+				content+="<div>CQ-SSS型拉压力传感器</div>";
+				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">S型传感器顾名思义是一个“S”形状的传感器，可以拉压两用，即可以单支使用，也可以通过配组输出多支同时使用,是铝合金材质，输出灵敏度和精度高； 应用范围：机械秤改造（机改电）、仓储/料斗/筒槽称重、吊钩秤，叉车秤、定量包装、通用材料试验机、张力/拉力测量、建筑机械计量. 规格：5kg、10k...</div>";
 				content+="";
 			content+="</div>";
   		content+="</li>";
@@ -722,7 +774,7 @@ $('#ajax_test2').click(function(){
 </div>
 <div class="clear"></div>
 <div class="foot">
- 	  版权所有 青岛华凌科技有限公司开发区分公司<br/>
+ 	  版权所有 青岛华凌科技有限公司<br/>
 	联系电话：0532-55588351,15712773653 <br/>
 	QQ：1578569337,2624691289
 </div>
