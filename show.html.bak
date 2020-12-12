@@ -2090,7 +2090,7 @@ jQuery(document).ready(function(){
 	content+="</p>";
 	
 	prenext+="<ul>";
-		prenext+="<a href=\"show.html?cid=15&amp;id=100\"><li> &lt;&lt; 上一条</li></a><li>没有了</li>";
+		prenext+="<a href=\"show.html?cid=15&amp;id=100\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=98\"><li>下一条 &gt;&gt; </li></a>";
 	prenext+="</ul>";
   }
   else if(cid==15&id==98){
@@ -2235,6 +2235,9 @@ jQuery(document).ready(function(){
 		content+="3、特殊要求，敬请与本公司商洽，并在订单中予以注明。";
     content+="</p>";
 
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=15&amp;id=99\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=97\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
   }
   else if(cid==15&id==97){
     title+="工业仪表";
@@ -2356,7 +2359,9 @@ jQuery(document).ready(function(){
 		content+="2、产品外形和性能参数上的要求，敬请与本公司详谈。";
     content+="</p>";
 
-
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=15&amp;id=98\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=96\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
   }
   else if(cid==15&id==96){
     title+="工业仪表";
@@ -2481,6 +2486,9 @@ jQuery(document).ready(function(){
 		content+="2、若对产品性能参数和功能上有特殊要求，欢迎与本公司洽谈。";
     content+="</p>";
 	
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=15&amp;id=97\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=95\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
   }
   else if(cid==15&id==95){
     title+="工业仪表";
@@ -2596,22 +2604,148 @@ jQuery(document).ready(function(){
 		content+="订购提示：";
     content+="</p>";
     content+="<p>";
-		content+="";
+		content+="1、壳体有带显示可选择，显示分为数码管显示和液晶显示两种，请在订单中说明。";
     content+="</p>";
     content+="<p>";
-		content+="";
+		content+="2、若对产品性能参数和功能上有特殊要求，欢迎与本公司洽谈。";
     content+="</p>";
 
+	prenext+="<ul>";
+	prenext+="<a href=\"show.html?cid=15&amp;id=101\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=15&amp;id=99\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
+  }
+  else if(cid==15&id==94){
+    title+="工业仪表";
 
+	content+="<h2>CQ--DS4000压力变送器</h2>";
     content+="<p style=\"font-weight:bold;\">";
-		content+="";
+		content+="产品概述";
     content+="</p>";
     content+="<p style=\"text-indent:2em;\">";
-    content+="";
+		content+="<span style=\"font-weight:bold;\">";
+			content+="DS4000型压力变送器";
+		content+="</span>";
+		content+="采用高性能，高稳定性OEM压力芯体作为信号测量元件，";
+		content+="<span style=\"font-weight:bold;\">";
+			content+="传感器";
+		content+="</span>";
+		content+="信号经过专用信号处理转换成标准信号输出，经过长期老化及稳定性筛选，产品性能稳定可靠，应用于环境比较恶劣的露天现场，同时能够现场压力显示，零点，满程可迁移。";
+    content+="</p>";
+    content+="<p style=\"text-indent:2em;\">";
+		content+="<span style=\"font-weight:bold;\">";
+			content+="DS4000型压力变送器";
+		content+="</span>";
+		content+="安装接口形式，既可根据用户的要求加工，也可提供与其它品牌变送器兼容的规格。该系列产品广泛应用于工业过程控制、石油、化工、冶金等行业。";
+    content+="</p>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="特点";
     content+="</p>";
     content+="<p>";
-    content+="";
+		content+="1.扩散硅压阻传感器 2.坚固密封良好的铝合金接线盒，户外安装使用 3.用于气体，液体，蒸汽的压力测量 4.提供低压，中压，高压丰富的压力量程范围 5.有液晶显示可选择 6.款式多样，适合工业的各种场合要求 7.多种输出信号可选择，可按客户要求定制";
     content+="</p>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="性能参数";
+    content+="</p>";
+    content+="<p>";
+		content+="量程范围：0～0.02…10Mpa";
+    content+="</p>";
+    content+="<p>";
+		content+="压力类型：表压、绝压";
+    content+="</p>";
+    content+="<p>";
+		content+="供电电源：24VDC、12VDC";
+    content+="</p>";
+    content+="<p>";
+		content+="输出信号：4～20mA、1～5V、0～5V";
+    content+="</p>";
+    content+="<p>";
+		content+="补偿温度：-10～70℃";
+    content+="</p>";
+    content+="<p>";
+		content+="工作温度：-40～85℃";
+    content+="</p>";
+    content+="<p>";
+		content+="储存温度：-40～125℃";
+    content+="</p>";
+    content+="<p>";
+		content+="零点温度漂移：±2%FS";
+    content+="</p>";
+    content+="<p>";
+		content+="灵敏度温度漂移：±2%FS";
+    content+="</p>";
+    content+="<p>";
+		content+="过载压力：150%FS";
+    content+="</p>";
+    content+="<p>";
+		content+="机械振动：20g（20-5000HZ)";
+    content+="</p>";
+    content+="<p>";
+		content+="冲击：100g（11ms）";
+    content+="</p>";
+    content+="<p>";
+		content+="综合精度：0.1、0.3、0.5级可选";
+    content+="</p>";
+    content+="<p>";
+		content+="长期稳定性：±0.2%FS/年";
+    content+="</p>";
+    content+="<p>";
+		content+="响应时间：≤1ms（上升到90％FS）";
+    content+="</p>";
+    content+="<p>";
+		content+="绝 缘：100MΩ/250VDC";
+    content+="</p>";
+    content+="<p>";
+		content+="EMC浪涌（IEC61000-4-5）：2KV";
+    content+="</p>";
+    content+="<p>";
+		content+="EMC静电（IEC61000-4-2）：接触放电8KV，空气放电15K";
+    content+="</p>";
+    content+="<p>";
+		content+="材质：外壳低铜铝合金；内部传感器316L";
+    content+="</p>";
+    content+="<p>";
+		content+="介质兼容：与316L不锈钢兼容的各种介质";
+    content+="</p>";
+    content+="<p>";
+		content+="防护等级：IP65";
+    content+="</p>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="适用范围";
+    content+="</p>";
+    content+="<p style=\"text-indent:2em;\">";
+		content+="项目配套，锅炉，油田，注塑，重工，化工，蒸汽管网，燃气管网，供水管网...";
+    content+="</p>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="外形尺寸";
+    content+="</p>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920150733353335.jpg\" width=\"300\"></div>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920150722572257.jpg\" width=\"300\"></div>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920150837603760.jpg\" width=\"300\"></div>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="压力连接";
+    content+="</p>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920150991689168.jpg\" width=\"300\"></div>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920151137683768.jpg\" width=\"300\"></div>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="订购指南";
+    content+="</p>";
+    content+="<p>";
+		content+="选型举例：DS4000-1MPa-V1-B1-C1-K1-P1-X";
+    content+="</p>";
+    content+="<div style=\"text-align:center\"><img src=\"admin/kindeditor/attached/image/20130920/20130920151252725272.jpg\" width=\"300\"></div>";
+    content+="<p style=\"font-weight:bold;\">";
+		content+="订购提示：";
+    content+="</p>";
+    content+="<p>";
+		content+="1、带显示分为数码管显示和液晶显示两种，请在订单中说明。";
+    content+="</p>";
+    content+="<p>";
+		content+="2、若对产品性能参数和功能上有特殊要求，欢迎与本公司洽谈。";
+    content+="</p>";
+
+	prenext+="<ul>";
+		prenext+="<a href=\"show.html?cid=15&amp;id=95\"><li> &lt;&lt; 上一条</li></a><li>没有了</li>";
+	prenext+="</ul>";
   }
   else if(cid==16&id==45){
     title+="工业仪表";
