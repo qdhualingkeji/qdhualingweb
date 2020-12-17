@@ -207,13 +207,13 @@ jQuery(document).ready(function(){
   else if(cid==15){
 		title="辰麒仪器仪表";
   
-  		content+="<li style=\"width:95%;height:180px;margin:0 auto;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
+  		content+="<li style=\"width:95%;height:170px;margin:0 auto;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:170px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=101\">";
 					content+="<img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20180808/1533725212.jpg\">";
 				content+="</a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:170px;margin-top:-170px;margin-left:110px;\">";
 				content+="<div>CQ-DS2680小直径液位变送器</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=101\">产品概述 　　　DS2680小直径液位变送器是专门为安装空间狭小的场合研发设计的，液位探头直径仅为19mm，内置高性能压力传感器和信号处理电路，产品采用一体化结构设计，全焊接密封，良好的防护性能使之可以长期侵入水中并正常工作。 　　　DS2680型由于体积小，安装使用十分方便，广泛应用于...</a>";
@@ -235,7 +235,7 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:190px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=99\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20180808/1533718374.jpg\"></a>";
 			content+="</div>";
@@ -261,7 +261,7 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:190px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=97\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201531111141.jpg\"></a>";
 			content+="</div>";
@@ -275,10 +275,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:200px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
+			content+="<div style=\"width:100px;height:200px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=96\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201523273561.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:200px;margin-top:-200px;margin-left:110px;\">";
 				content+="<div>CQ-DS4000T高温压力变送器</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=96\">";
