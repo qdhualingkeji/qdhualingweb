@@ -16,9 +16,10 @@
 jQuery(document).ready(function(){
   jQuery(".img").LoadImage({width:150,height:140});
   var cid=getQueryString("cid");
+  var title="";
   var content="";
   if(cid==3){
-  		$(".title").text("行业解决方案");
+		title="行业解决方案";
 		
 		/*
 		content+="<li>";
@@ -204,102 +205,117 @@ jQuery(document).ready(function(){
 		content+="</li>";
   }
   else if(cid==15){
-  		$(".title").text("辰麒仪器仪表");
+		title="辰麒仪器仪表";
   
   		content+="<li style=\"width:95%;height:180px;margin:0 auto;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=101\">";
-					content+="<img style=\"width:100px;margin-top:40px;\" src=\"uploads/image/20180808/1533725212.jpg\">";
+					content+="<img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20180808/1533725212.jpg\">";
 				content+="</a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS2680小直径液位变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">产品概述 　　　DS2680小直径液位变送器是专门为安装空间狭小的场合研发设计的，液位探头直径仅为19mm，内置高性能压力传感器和信号处理电路，产品采用一体化结构设计，全焊接密封，良好的防护性能使之可以长期侵入水中并正常工作。 　　　DS2680型由于体积小，安装使用十分方便，广泛应用于...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=101\">产品概述 　　　DS2680小直径液位变送器是专门为安装空间狭小的场合研发设计的，液位探头直径仅为19mm，内置高性能压力传感器和信号处理电路，产品采用一体化结构设计，全焊接密封，良好的防护性能使之可以长期侵入水中并正常工作。 　　　DS2680型由于体积小，安装使用十分方便，广泛应用于...</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=100\">";
-					content+="<img style=\"width:100px;margin-top:57px;\" src=\"uploads/image/20180808/1533719455.jpg\">";
+					content+="<img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20180808/1533719455.jpg\">";
 				content+="</a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS2610金属铠装液位变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-					content+="产品概述 　　　DS2610金属铠装液位变送器由高性能扩散硅压阻式压力传感器作为测量元件，把与液位深度成正比的液体静压力准确测量出来，并经过信号调理电路转换成标准（电流或电压）信号输出，建立起输出信号与液体深度的线性对应关系，实现对液体深度的测量。安装法兰可定制，电缆封装在铠装不锈钢金属管...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=100\">";
+						content+="产品概述 　　　DS2610金属铠装液位变送器由高性能扩散硅压阻式压力传感器作为测量元件，把与液位深度成正比的液体静压力准确测量出来，并经过信号调理电路转换成标准（电流或电压）信号输出，建立起输出信号与液体深度的线性对应关系，实现对液体深度的测量。安装法兰可定制，电缆封装在铠装不锈钢金属管...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+  		content+="<li style=\"width:95%;height:190px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=99\"><img style=\"width:100px;margin-top:18px;\" src=\"uploads/image/20180808/1533718374.jpg\"></a>";
+				content+="<a href=\"show.html?cid=15&amp;id=99\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20180808/1533718374.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS2650投入式防雷液位变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="产品概述 　　DS2650投入式防雷击液位变送器将OEM充油芯体封装在不锈钢壳体内，内置安装了三级防雷击模块，可以有效地防止感应雷击的破坏。前端防护帽起保护传感器膜片的作用，也能使液体流畅地接触到膜片，防水导线与外壳密封连接，通气管在电缆内与外界相连，内部结构防结露设计。 　　产品经过长...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=99\">";
+						content+="产品概述 　　DS2650投入式防雷击液位变送器将OEM充油芯体封装在不锈钢壳体内，内置安装了三级防雷击模块，可以有效地防止感应雷击的破坏。前端防护帽起保护传感器膜片的作用，也能使液体流畅地接触到膜片，防水导线与外壳密封连接，通气管在电缆内与外界相连，内部结构防结露设计。 　　产品经过长...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=98\"><img style=\"width:100px;margin-top:22px;\" src=\"uploads/day_130920/201309201536278264.jpg\"></a>";
+				content+="<a href=\"show.html?cid=15&amp;id=98\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201536278264.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS4600智能压力变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="DS4600智能压力变送器是一款高精度、高稳定性的智能化压力测量产品。该产品采用全焊接OEM充油芯体和ADI专用芯片并结合微处理器技术研制而成, 具有现场显示、数据处理、零点，满量程软件调整，4～20mA输出及通讯等功能，体积小、精度高、重量轻、量程覆盖范围宽，适用于各行业需要对流体压力进行精密测量的场所。该产品...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=98\">";
+						content+="DS4600智能压力变送器是一款高精度、高稳定性的智能化压力测量产品。该产品采用全焊接OEM充油芯体和ADI专用芯片并结合微处理器技术研制而成, 具有现场显示、数据处理、零点，满量程软件调整，4～20mA输出及通讯等功能，体积小、精度高、重量轻、量程覆盖范围宽，适用于各行业需要对流体压力进行精密测量的场所。该产品...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+  		content+="<li style=\"width:95%;height:190px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=97\"><img style=\"width:100px;margin-top:17px;\" src=\"uploads/day_130920/201309201531111141.jpg\"></a>";
+				content+="<a href=\"show.html?cid=15&amp;id=97\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201531111141.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS4000F带法兰压力变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="DS4000F带法兰压力变送器是为满足客户法兰安装要求的一款定制产品。该产品采用进口扩散硅压力敏感元件，是扩散硅精密机械加工、温度补偿、模拟信号处理技术的结晶，经过长期老化及稳定性筛选，产品性能稳定可靠。 产品概述 　　　DS4000F带法兰压力变送器是为满足客户法兰安装要求的一款...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=97\">";
+						content+="DS4000F带法兰压力变送器是为满足客户法兰安装要求的一款定制产品。该产品采用进口扩散硅压力敏感元件，是扩散硅精密机械加工、温度补偿、模拟信号处理技术的结晶，经过长期老化及稳定性筛选，产品性能稳定可靠。 产品概述 　　　DS4000F带法兰压力变送器是为满足客户法兰安装要求的一款...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+  		content+="<li style=\"width:95%;height:200px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=96\"><img style=\"width:100px;margin-top:17px;\" src=\"uploads/day_130920/201309201523273561.jpg\"></a>";
+				content+="<a href=\"show.html?cid=15&amp;id=96\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201523273561.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-DS4000T高温压力变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="产品概述 　　　 　　　DS4000T型高温压力变送器选用耐高温压力传感器作为信号测量元件，被测介质压力经过变送器上的散热结构传递到传感器上，高精度的信号处理电路位于不锈钢壳体内，将传感器输出信号转换为标准输出信号。 　　　整个产品经过了元器件、半成品及成品的严格测试及老化筛...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=96\">";
+						content+="产品概述 　　　 　　　DS4000T型高温压力变送器选用耐高温压力传感器作为信号测量元件，被测介质压力经过变送器上的散热结构传递到传感器上，高精度的信号处理电路位于不锈钢壳体内，将传感器输出信号转换为标准输出信号。 　　　整个产品经过了元器件、半成品及成品的严格测试及老化筛...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=95\"><img style=\"width:100px;margin-top:57px;\" src=\"uploads/day_131010/201310101555229427.jpg\"></a>";
+  		content+="<li style=\"width:95%;height:160px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:160px;\">";
+				content+="<a href=\"show.html?cid=15&amp;id=95\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_131010/201310101555229427.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:160px;margin-top:-160px;margin-left:110px;\">";
 				content+="<div>CQ--DS4000B隔爆压力变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="产品概述 　　　DS4000B型压力变送器采用高性能，高稳定性OEM压力芯体作为信号测量元件，传感器信号经过专用信号处理转换成标准信号输出，经过长期老化及稳定性筛选，产品性能稳定可靠，应用于环境比较恶劣的现场，同时能够实现现场压力显示，零点，满程可迁移等要求。 　　　DS4000B型压力...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=95\">";
+						content+="产品概述 　　　DS4000B型压力变送器采用高性能，高稳定性OEM压力芯体作为信号测量元件，传感器信号经过专用信号处理转换成标准信号输出，经过长期老化及稳定性筛选，产品性能稳定可靠，应用于环境比较恶劣的现场，同时能够实现现场压力显示，零点，满程可迁移等要求。 　　　DS4000B型压力...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=15&amp;id=95\"><img style=\"width:100px;margin-top:40px;\" src=\"uploads/day_130920/201309201501131205.jpg\"></a>";
+  		content+="<li style=\"width:95%;height:170px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:170px;\">";
+				content+="<a href=\"show.html?cid=15&amp;id=94\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201501131205.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:170px;margin-top:-170px;margin-left:110px;\">";
 				content+="<div>CQ--DS4000压力变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="产品概述 　　　DS4000型压力变送器采用高性能，高稳定性OEM压力芯体作为信号测量元件，传感器信号经过专用信号处理转换成标准信号输出，经过长期老化及稳定性筛选，产品性能稳定可靠，应用于环境比较恶劣的露天现场，同时能够现场压力显示，零点，满程可迁移。 　　　DS4000型压力...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=94\">";
+						content+="产品概述 　　　DS4000型压力变送器采用高性能，高稳定性OEM压力芯体作为信号测量元件，传感器信号经过专用信号处理转换成标准信号输出，经过长期老化及稳定性筛选，产品性能稳定可靠，应用于环境比较恶劣的露天现场，同时能够现场压力显示，零点，满程可迁移。 　　　DS4000型压力...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==16){
-  		$(".title").text("上润仪器仪表");
+  		title="上润仪器仪表";
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
@@ -307,8 +323,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>智能三相综合电力仪表</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="智能三相综合电力仪表 是一种具有显示、数字通讯和变送输出等多功能智能仪表表，能够同时测量三相交流回路的每一相电压、电流、有功功率、无功功率、视在功率、功率因数、频率、有功电度、无功电度等参量，实现LED现场显示和远程RS-485数字接口通讯，采用MODBUS-RTU通讯协议,带谐波功能。 产品详...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=16&amp;id=45\">";
+						content+="智能三相综合电力仪表 是一种具有显示、数字通讯和变送输出等多功能智能仪表表，能够同时测量三相交流回路的每一相电压、电流、有功功率、无功功率、视在功率、功率因数、频率、有功电度、无功电度等参量，实现LED现场显示和远程RS-485数字接口通讯，采用MODBUS-RTU通讯协议,带谐波功能。 产品详...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -318,8 +336,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>智能单相综合电力仪表</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="智能单相综合电力仪表 是一种具有显示、数字通讯和变送输出等多功能智能仪表,能够同时测量单相交流回路的电压、电流、有功功率、无功功率、视在功率、功率因数、频率、有功电度、无功电度等参量，由高亮度LED数码管进行清晰直观的显示，并可选择串行通讯功能。 产品详情 ...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=16&amp;id=44\">";
+						content+="智能单相综合电力仪表 是一种具有显示、数字通讯和变送输出等多功能智能仪表,能够同时测量单相交流回路的电压、电流、有功功率、无功功率、视在功率、功率因数、频率、有功电度、无功电度等参量，由高亮度LED数码管进行清晰直观的显示，并可选择串行通讯功能。 产品详情 ...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -329,14 +349,16 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>WP-R80 单色无纸记录仪</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="WP-R80系列3通道输入单色无纸记录仪，可输入标准电流、标准电压、频率、毫伏、热电偶、热电阻等多种信号。具有传感器隔离配电输出、继电器报警输出、流量积算、累积报表、历史数据转存、打印以及远程通讯功能。 产品详情 　　W...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=16&amp;id=43\">";
+						content+="WP-R80系列3通道输入单色无纸记录仪，可输入标准电流、标准电压、频率、毫伏、热电偶、热电阻等多种信号。具有传感器隔离配电输出、继电器报警输出、流量积算、累积报表、历史数据转存、打印以及远程通讯功能。 产品详情 　　W...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==17){
-  		$(".title").text("称重仪表");
+  		title="称重仪表";
   
 		/*
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -376,8 +398,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-505L智能称重仪表</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">辰麒智能称重仪表，主要适于在称重设备中作称重数字信号转换部件，该产品带有重量界限判断功能，可用于重量界限控制，带RS485 modbus通讯协议及4-20mA输出， 该产品带有LED数码显示，操作简单，便于掌握。适用于建材、化工、食品、钢铁、饲料等行业。 产品基本参数：...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=99\">";
+						content+="辰麒智能称重仪表，主要适于在称重设备中作称重数字信号转换部件，该产品带有重量界限判断功能，可用于重量界限控制，带RS485 modbus通讯协议及4-20mA输出， 该产品带有LED数码显示，操作简单，便于掌握。适用于建材、化工、食品、钢铁、饲料等行业。 产品基本参数：...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -386,8 +411,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-320C悬臂梁传感器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">CQ-320C悬臂梁传感器采购一端固定一端加载的安装方式，重心低，安装方便，防尘密封，性能稳定，互换性好，综合精度高。可适用化工储罐、汽车衡、电子秤、平台秤、料斗秤等，也可用于各种拉伸力和压缩力的承载和测量。 悬臂梁式钢制称重传感器，一端固定，一端加载，采用钢球传力，上下压头承载或双球头式结构，设...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=98\">";
+						content+="CQ-320C悬臂梁传感器采购一端固定一端加载的安装方式，重心低，安装方便，防尘密封，性能稳定，互换性好，综合精度高。可适用化工储罐、汽车衡、电子秤、平台秤、料斗秤等，也可用于各种拉伸力和压缩力的承载和测量。 悬臂梁式钢制称重传感器，一端固定，一端加载，采用钢球传力，上下压头承载或双球头式结构，设...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -396,8 +424,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-NLF轮辐式测力称重传感器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">轮辐式传感器采用优质合金钢材质，高精度、高稳定性、低外形、安装方便快速； 适用于试验机、汽车衡、仓储和大型料斗秤等。 规格：500kg、1t、2t、3t、5t、10t、15t、20t、25t、30t、50t、60t、100t、150t、200t、300t、500t。 ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=97\">";
+						content+="轮辐式传感器采用优质合金钢材质，高精度、高稳定性、低外形、安装方便快速； 适用于试验机、汽车衡、仓储和大型料斗秤等。 规格：500kg、1t、2t、3t、5t、10t、15t、20t、25t、30t、50t、60t、100t、150t、200t、300t、500t。 ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -406,8 +437,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-YJ柱式测力称重传感器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">柱式测力重量传感器低外形、尺寸小、安装方便， 适用于力量测量装置。规格：12t、18t、22t、26t、33t、40t； ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=96\">";
+						content+="柱式测力重量传感器低外形、尺寸小、安装方便， 适用于力量测量装置。规格：12t、18t、22t、26t、33t、40t； ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -416,13 +450,16 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-SSS型拉压力传感器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">S型传感器顾名思义是一个“S”形状的传感器，可以拉压两用，即可以单支使用，也可以通过配组输出多支同时使用,是铝合金材质，输出灵敏度和精度高； 应用范围：机械秤改造（机改电）、仓储/料斗/筒槽称重、吊钩秤，叉车秤、定量包装、通用材料试验机、张力/拉力测量、建筑机械计量. 规格：5kg、10k...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=95\">";
+						content+="S型传感器顾名思义是一个“S”形状的传感器，可以拉压两用，即可以单支使用，也可以通过配组输出多支同时使用,是铝合金材质，输出灵敏度和精度高； 应用范围：机械秤改造（机改电）、仓储/料斗/筒槽称重、吊钩秤，叉车秤、定量包装、通用材料试验机、张力/拉力测量、建筑机械计量. 规格：5kg、10k...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==18){
-  		$(".title").text("流量仪表");
+  		title="流量仪表";
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
@@ -430,8 +467,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>EMC型插入式电磁流量计</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">产品详情 供电： 220V（AV）/24V(DC) 功耗约15VA 流速范围 0.2m/s–10m/s 传感器本体材料 304不锈钢 传感器外壳材料不锈钢/AB...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=18&amp;id=55\">";
+						content+="产品详情 供电： 220V（AV）/24V(DC) 功耗约15VA 流速范围 0.2m/s–10m/s 传感器本体材料 304不锈钢 传感器外壳材料不锈钢/AB...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -440,8 +480,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>夹持式分体型电磁流量计</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">产品详情 工作原理 　　电磁流量计传感器的测量系统是基于法拉第电磁感应定律，在与测量管轴线和磁场磁力线相互垂直的管壁上安装一对检测电极，当导电液体沿测量管轴线运动时，导电液体作切割磁力 线运动产生感应电势。此感应电势由测量管上的两个电极...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=18&amp;id=54\">";
+					content+="产品详情 工作原理 　　电磁流量计传感器的测量系统是基于法拉第电磁感应定律，在与测量管轴线和磁场磁力线相互垂直的管壁上安装一对检测电极，当导电液体沿测量管轴线运动时，导电液体作切割磁力 线运动产生感应电势。此感应电势由测量管上的两个电极...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -450,13 +493,16 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>差压式锥型流量计</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">产品详情 精确的流量测量 · 流量测量领域的专家 · 二线制的接线 可替换以下产品使用：孔板、文丘里、喷嘴、旋涡流量计、转子流量计、旋进式流量计、阿纽巴流量计 应用范围 ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=18&amp;id=53\">";
+						content+="产品详情 精确的流量测量 · 流量测量领域的专家 · 二线制的接线 可替换以下产品使用：孔板、文丘里、喷嘴、旋涡流量计、转子流量计、旋进式流量计、阿纽巴流量计 应用范围 ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==19){
-  		$(".title").text("无线仪表");
+  		title="无线仪表";
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
@@ -464,8 +510,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>SWSN-T2无线温度变送器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">SWSN-T2无线温度变送器是我公司自主研发的一款高精度、低功耗的无线温度检测仪表，锂电池供电，无线数据传输，无需现场布线，省去了常规仪表现场布线的麻烦，节省了人力及施工成本，大量使用于不适宜布线或供电的应用现场，是传统温度变送器的理想升级换代产品。 技术参数： ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=19&amp;id=60\">";
+						content+="SWSN-T2无线温度变送器是我公司自主研发的一款高精度、低功耗的无线温度检测仪表，锂电池供电，无线数据传输，无需现场布线，省去了常规仪表现场布线的麻烦，节省了人力及施工成本，大量使用于不适宜布线或供电的应用现场，是传统温度变送器的理想升级换代产品。 技术参数： ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -474,8 +523,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>无线漏水传感报警器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">本无线水浸传感器采用无线电编码数据传输,内置锂电池供电,无需现场布线,省去了常规仪表现场布线的麻烦,节省了人力及施工成本,大量使用于不适宜布线或供电的应用现场,是传统水浸变送器的理想升级换代产品。更加适合于医药、仓储、粮食行业的温湿度检测需求。 技术参数： ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=19&amp;id=59\"><";
+						content+="本无线水浸传感器采用无线电编码数据传输,内置锂电池供电,无需现场布线,省去了常规仪表现场布线的麻烦,节省了人力及施工成本,大量使用于不适宜布线或供电的应用现场,是传统水浸变送器的理想升级换代产品。更加适合于医药、仓储、粮食行业的温湿度检测需求。 技术参数： ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -484,13 +536,16 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>SWSN-YG无线烟雾探测器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">SWSN-YG无线烟雾探测器是我公司与专业烟感厂商合作推出的一款智能组网型无线烟雾传感器，具有500米的超远传输距离和超过5年的电池使用寿命，不但能实现本地报警，还可以实现烟感的免维护无线传输并通过SWSN-G2/G3网关与本地服务器或云服务器实现数据交互和远程监控。 ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=19&amp;id=58\">";
+						content+="SWSN-YG无线烟雾探测器是我公司与专业烟感厂商合作推出的一款智能组网型无线烟雾传感器，具有500米的超远传输距离和超过5年的电池使用寿命，不但能实现本地报警，还可以实现烟感的免维护无线传输并通过SWSN-G2/G3网关与本地服务器或云服务器实现数据交互和远程监控。 ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==20){
-  		$(".title").text("变频器");
+  		title="变频器";
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
@@ -498,8 +553,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>FSCZ01/02(CVF-ZC/ZS1)系列注塑一体化柜机</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">博世力士乐FSCZ01/02(CVF-ZC/ZS1)系列注塑一体化柜机 博世力士乐FSCZ01/02(CVF-ZC/ZS1)系列变频器是结合专业的注塑机传动控制技术，为注塑机用户节能改造所设计开发的整套解决方案。该系列产品可靠性强，精度高，可与所有定量泵类注塑机品牌相匹配，灵活多样的组合设定保证注塑机的最...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=20&amp;id=65\">";
+						content+="博世力士乐FSCZ01/02(CVF-ZC/ZS1)系列注塑一体化柜机 博世力士乐FSCZ01/02(CVF-ZC/ZS1)系列变频器是结合专业的注塑机传动控制技术，为注塑机用户节能改造所设计开发的整套解决方案。该系列产品可靠性强，精度高，可与所有定量泵类注塑机品牌相匹配，灵活多样的组合设定保证注塑机的最...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -508,8 +566,11 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>FSCS01(CVF-S1)系列单相小功率高性能变频器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">博世力士乐FSCS01(CVF-S1)系列单相小功率高性能变频器 博世力士乐FSCS01系列是一款单相小功率变频器专注于单相小功率，范围从0.4 kW到2.2 kW。其丰富的I/O 端子可实现16段速运行，支持0-10 KHZ脉冲输入以及特有的提频功能。广泛应用于纺织、印染、印刷、包装、塑料、风机水...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=20&amp;id=64\">";
+						content+="博世力士乐FSCS01(CVF-S1)系列单相小功率高性能变频器 博世力士乐FSCS01系列是一款单相小功率变频器专注于单相小功率，范围从0.4 kW到2.2 kW。其丰富的I/O 端子可实现16段速运行，支持0-10 KHZ脉冲输入以及特有的提频功能。广泛应用于纺织、印染、印刷、包装、塑料、风机水...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
@@ -518,13 +579,16 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>VFC 2600系列新一代迷你型变频器</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">博世力士乐VFC 2600系列新一代迷你型变频器 博世力士乐VFC2600系列是采用德国设计的功能强大系统完善的全新平台打造出的新一代迷你型变频器。其核心器件采用纯进口配备，低频效果明显提升，过载性能强劲却十分节能。系统智能化防呆设计，是一款真正玲珑实惠简单可靠的变频器。 行业应用： ...</div>";
-				content+="";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=20&amp;id=63\">";
+					content+="博世力士乐VFC 2600系列新一代迷你型变频器 博世力士乐VFC2600系列是采用德国设计的功能强大系统完善的全新平台打造出的新一代迷你型变频器。其核心器件采用纯进口配备，低频效果明显提升，过载性能强劲却十分节能。系统智能化防呆设计，是一款真正玲珑实惠简单可靠的变频器。 行业应用： ...";
+					content+="</a>";
+				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
   else if(cid==21){
-		$(".title").text("控制柜、配电箱");
+		title="控制柜、配电箱";
 
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
@@ -532,8 +596,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>三箱类配电箱</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=65\">";
+						content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -543,8 +609,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>低压配电箱</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑处...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=64\">";
+						content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑处...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -554,8 +622,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>JXF配电箱</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=63\">";
+						content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -565,8 +635,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>配电箱</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑处...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=62\">";
+						content+="JXF2-1系列配电箱是一种根据元件型号、规格、数量设计组装成各种控制功能的配电装置。产品广泛应用于工业及民用建筑中，额定电压380V及以下，频率为50Hz的 电力系统中作动力配电、照明配电及自动化控制。 JXF2-1系列产品为封闭式结构，挂墙明装或暗装于墙内。箱体采用冷轧钢板折弯 焊接而成，表面采用静电喷塑处...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -576,8 +648,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GCK型低压抽出式开关柜</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="GCK型低压抽出式开关柜(以下简称开关柜)适用于三相交流50、(60)Hz,额 定电压380(400)V、660(690)Vf额定电流5000A及以下的三相四线制及三相五线制电 力系统，广泛应用于发电厂、变电站、工矿企业、高层建筑、机场、车站码头以及广 播电视等通信中心，来作为发电、输配电、电能转换及电能消耗的...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=61\">";
+						content+="GCK型低压抽出式开关柜(以下简称开关柜)适用于三相交流50、(60)Hz,额 定电压380(400)V、660(690)Vf额定电流5000A及以下的三相四线制及三相五线制电 力系统，广泛应用于发电厂、变电站、工矿企业、高层建筑、机场、车站码头以及广 播电视等通信中心，来作为发电、输配电、电能转换及电能消耗的...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -587,8 +661,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>XL-21柜</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="XL（F） -21系列动力配电柜适用于发电厂及工矿企业、交流电压550V及以下的三相 三线、三相四线、三相四线、三相五线制系统，广泛适用于工矿企业、冶金化工、宾馆 银行、车站码头、轨道交通等户内、户外动力照明配电之用。若用于户外时，请与设备 生产厂家协商解决。 型号含义 ...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=60\">";
+						content+="XL（F） -21系列动力配电柜适用于发电厂及工矿企业、交流电压550V及以下的三相 三线、三相四线、三相四线、三相五线制系统，广泛适用于工矿企业、冶金化工、宾馆 银行、车站码头、轨道交通等户内、户外动力照明配电之用。若用于户外时，请与设备 生产厂家协商解决。 型号含义 ...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -598,8 +674,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>MNS低压抽屉柜</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="MNS型低压抽出式开关柜(以下称开关柜）是我公司参考了瑞士ABB公司的MNS系列低压开关柜并加以综合改进后开发的，是目前国内较先进的低压抽出式开关设备。该产品均由标准化的、成系列的模块组成，并且抽屉具有可靠的机械联锁装置，使用户在使用时更安全、更可靠。 本开关柜适用于交流50(60)HZ、额定绝缘电...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=59\">";
+						content+="MNS型低压抽出式开关柜(以下称开关柜）是我公司参考了瑞士ABB公司的MNS系列低压开关柜并加以综合改进后开发的，是目前国内较先进的低压抽出式开关设备。该产品均由标准化的、成系列的模块组成，并且抽屉具有可靠的机械联锁装置，使用户在使用时更安全、更可靠。 本开关柜适用于交流50(60)HZ、额定绝缘电...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -609,8 +687,10 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GGD低压柜</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="GGD型交流低电配电柜适用于发电厂，变电所(站)、工矿企业等电力用户作为交流50Hz，额定工作电压380V，额定工作电流至3150A的配电系统中作为动力,照明及配电设备的电能转换,分配及控制之用。 正常使用条件 1.安装使用地点海拔高度不超过2000m; 2.周围介质温度不高于...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=58\">";
+						content+="GGD型交流低电配电柜适用于发电厂，变电所(站)、工矿企业等电力用户作为交流50Hz，额定工作电压380V，额定工作电流至3150A的配电系统中作为动力,照明及配电设备的电能转换,分配及控制之用。 正常使用条件 1.安装使用地点海拔高度不超过2000m; 2.周围介质温度不高于...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
@@ -620,12 +700,15 @@ jQuery(document).ready(function(){
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GCS型低压抽出式开关柜</div>";
-				content+="<div style=\"margin-top:10px;color: #999;font-size: 12px;\">";
-				content+="GCS型低压抽出式开关柜，（以下简称装置)是两部联合设计组根据行业主管部门、广大电力用户及设计单位的要求设计研制出的符合国情，具有较高技术性能指标、能够适应电力市场发展需要并可与现有引进产品竞争的低压抽出式开关柜。该装置目前已被电力用户广泛选用。 装置适用于发电厂、石油、化工、冶金、纺织、高层建筑等...";
+				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
+					content+="<a style=\"color: #999;\" href=\"show.html?cid=21&amp;id=57\">";
+						content+="GCS型低压抽出式开关柜，（以下简称装置)是两部联合设计组根据行业主管部门、广大电力用户及设计单位的要求设计研制出的符合国情，具有较高技术性能指标、能够适应电力市场发展需要并可与现有引进产品竞争的低压抽出式开关柜。该装置目前已被电力用户广泛选用。 装置适用于发电厂、石油、化工、冶金、纺织、高层建筑等...";
+					content+="</a>";
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
   }
+  $(".title").text(title);
   $("#pro").html(content);
 });
 
@@ -769,7 +852,7 @@ $('#ajax_test2').click(function(){
   </ul>
 </div>
   <div class="about">
-    <h1 class="title">行业解决方案</h1>
+    <h1 class="title"></h1>
     <div id="pro" style="margin-top:10px">
 	<!--
 		 <li> 
