@@ -274,11 +274,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:200px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:200px;\">";
+  		content+="<li style=\"width:95%;height:170px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:170px;\">";
 				content+="<a href=\"show.html?cid=15&amp;id=96\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_130920/201309201523273561.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:200px;margin-top:-200px;margin-left:110px;\">";
+			content+="<div style=\"height:170px;margin-top:-170px;margin-left:110px;\">";
 				content+="<div>CQ-DS4000T高温压力变送器</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=15&amp;id=96\">";
@@ -319,7 +319,7 @@ jQuery(document).ready(function(){
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=16&amp;id=45\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507703077.jpg\"></a>";
+				content+="<a href=\"show.html?cid=16&amp;id=45\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507703077.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>智能三相综合电力仪表</div>";
@@ -332,7 +332,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=16&amp;id=44\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702847.jpg\"></a>";
+				content+="<a href=\"show.html?cid=16&amp;id=44\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507702847.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>智能单相综合电力仪表</div>";
@@ -343,11 +343,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=16&amp;id=43\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507705028.jpg\"></a>";
+  		content+="<li style=\"width:95%;height:160px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:160px;\">";
+				content+="<a href=\"show.html?cid=16&amp;id=43\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507705028.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:160px;margin-top:-160px;margin-left:110px;\">";
 				content+="<div>WP-R80 单色无纸记录仪</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=16&amp;id=43\">";
@@ -394,7 +394,7 @@ jQuery(document).ready(function(){
 		*/
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=17&amp;id=99\"><img style=\"width:100px;margin-top:58px;\" src=\"uploads/day_201202/202012021417078302.jpg\"></a>";
+				content+="<a href=\"show.html?cid=17&amp;id=99\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_201202/202012021417078302.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-505L智能称重仪表</div>";
@@ -407,7 +407,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=17&amp;id=98\"><img style=\"width:100px;margin-top:64px;\" src=\"uploads/day_201202/202012021302494184.png\"></a>";
+				content+="<a href=\"show.html?cid=17&amp;id=98\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_201202/202012021302494184.png\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-320C悬臂梁传感器</div>";
@@ -418,11 +418,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=17&amp;id=97\"><img style=\"width:100px;margin-top:47px;\" src=\"uploads/day_201202/2020120213302088.png\"></a>";
+  		content+="<li style=\"width:95%;height:160px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:160px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=97\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_201202/2020120213302088.png\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:160px;margin-top:-160px;margin-left:110px;\">";
 				content+="<div>CQ-NLF轮辐式测力称重传感器</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=97\">";
@@ -431,11 +431,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=17&amp;id=96\"><img style=\"width:100px;margin-top:60px;\" src=\"uploads/day_201202/202012021354425319.png\"></a>";
+  		content+="<li style=\"width:95%;height:120px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:120px;\">";
+				content+="<a href=\"show.html?cid=17&amp;id=96\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_201202/202012021354425319.png\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:120px;margin-top:-120px;margin-left:110px;\">";
 				content+="<div>CQ-YJ柱式测力称重传感器</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=17&amp;id=96\">";
@@ -446,7 +446,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=17&amp;id=95\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/day_201202/202012021407418995.png\"></a>";
+				content+="<a href=\"show.html?cid=17&amp;id=95\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/day_201202/202012021407418995.png\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>CQ-SSS型拉压力传感器</div>";
@@ -463,7 +463,7 @@ jQuery(document).ready(function(){
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=18&amp;id=55\"><img style=\"width:100px;margin-top:26px;\" src=\"uploads/image/20171011/1507708550.jpg\"></a>";
+				content+="<a href=\"show.html?cid=18&amp;id=55\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507708550.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>EMC型插入式电磁流量计</div>";
@@ -474,11 +474,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=18&amp;id=54\"><img style=\"width:100px;margin-top:40px;\" src=\"uploads/image/20171011/1507707224.jpg\"></a>";
+  		content+="<li style=\"width:95%;height:160px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:160px;\">";
+				content+="<a href=\"show.html?cid=18&amp;id=54\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507707224.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:160px;margin-top:-160px;margin-left:110px;\">";
 				content+="<div>夹持式分体型电磁流量计</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=18&amp;id=54\">";
@@ -487,11 +487,11 @@ jQuery(document).ready(function(){
 				content+="</div>";
 			content+="</div>";
   		content+="</li>";
-  		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
-			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=18&amp;id=53\"><img style=\"width:100px;margin-top:62px;\" src=\"uploads/image/20171011/1507701815.jpg\"></a>";
+  		content+="<li style=\"width:95%;height:120px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
+			content+="<div style=\"width:100px;height:120px;\">";
+				content+="<a href=\"show.html?cid=18&amp;id=53\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507701815.jpg\"></a>";
 			content+="</div>";
-			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
+			content+="<div style=\"height:120px;margin-top:-120px;margin-left:110px;\">";
 				content+="<div>差压式锥型流量计</div>";
 				content+="<div style=\"margin-top:10px;font-size: 12px;\">";
 					content+="<a style=\"color: #999;\" href=\"show.html?cid=18&amp;id=53\">";
@@ -506,7 +506,7 @@ jQuery(document).ready(function(){
 		
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=19&amp;id=60\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507707243.jpg\"></a>";
+				content+="<a href=\"show.html?cid=19&amp;id=60\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507707243.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>SWSN-T2无线温度变送器</div>";
@@ -519,7 +519,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=19&amp;id=59\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507705733.jpg\"></a>";
+				content+="<a href=\"show.html?cid=19&amp;id=59\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507705733.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>无线漏水传感报警器</div>";
@@ -532,7 +532,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
   		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=19&amp;id=58\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/1507702644.jpg\"></a>";
+				content+="<a href=\"show.html?cid=19&amp;id=58\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/1507702644.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>SWSN-YG无线烟雾探测器</div>";
@@ -592,7 +592,7 @@ jQuery(document).ready(function(){
 
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161051082665.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=65\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810161051082665.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>三箱类配电箱</div>";
@@ -605,7 +605,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=64\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161044504850.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=64\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810161044504850.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>低压配电箱</div>";
@@ -618,7 +618,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=63\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161022144519.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=63\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810161022144519.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>JXF配电箱</div>";
@@ -631,7 +631,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=62\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161012119361.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=62\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810161012119361.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>配电箱</div>";
@@ -644,7 +644,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=61\"><img style=\"width:100px;margin-top:50px;\" src=\"uploads/image/20171011/201810161005293634.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=61\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810161005293634.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GCK型低压抽出式开关柜</div>";
@@ -657,7 +657,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=60\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151542405531.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=60\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810151542405531.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>XL-21柜</div>";
@@ -670,7 +670,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=59\"><img style=\"width:100px;margin-top:23px;\" src=\"uploads/image/20171011/201810151541024324.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=59\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810151541024324.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>MNS低压抽屉柜</div>";
@@ -683,7 +683,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=58\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810151400113511.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=58\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810151400113511.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GGD低压柜</div>";
@@ -696,7 +696,7 @@ jQuery(document).ready(function(){
   		content+="</li>";
 		content+="<li style=\"width:95%;height:180px;margin:10px auto 0;border-bottom: 1px #CCCCCC dashed;\">";
 			content+="<div style=\"width:100px;height:180px;\">";
-				content+="<a href=\"show.html?cid=21&amp;id=57\"><img style=\"width:100px;margin-top:52px;\" src=\"uploads/image/20171011/201810120852368162.jpg\"></a>";
+				content+="<a href=\"show.html?cid=21&amp;id=57\"><img style=\"width:100px;margin-top:33px;\" src=\"uploads/image/20171011/201810120852368162.jpg\"></a>";
 			content+="</div>";
 			content+="<div style=\"height:180px;margin-top:-180px;margin-left:110px;\">";
 				content+="<div>GCS型低压抽出式开关柜</div>";
