@@ -4766,23 +4766,6 @@ jQuery(document).ready(function(){
     title+="行业解决方案";
 
     content+="<h2>轻工制药行业典型解决方案</h2>"+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		"";
 
 		"<p>"+
 			"<span>"+
@@ -4944,10 +4927,154 @@ jQuery(document).ready(function(){
 			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">"+
 				"<img alt=\"\" src=\"admin/kindeditor/attached/image/20161105/20161105150790109010.jpg\" width=\"700\" height=\"438\"><br>"+
 			"</span>"+
+		"</p>";
+	
+    prenext+="<ul>";
+    prenext+="<a href=\"show.html?cid=3&amp;id=32\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=33\"><li>下一条 &gt;&gt; </li></a>";
+    prenext+="</ul>";
+  }
+  else if(cid==3&id==60){
+    title+="行业解决方案";
+
+    content+="<h2>新能源行业自动化控制解决方案</h2>"+
+		"<p style=\"text-align:center;\">"+
+			"<b><span style=\"color:#000000;font-family:SimSun;font-size:14pt;\"><span style=\"line-height:2;font-size:24px;\">石墨电极材料生产线自动化控制系统</span></span></b>"+
 		"</p>"+
-
-
-
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">华凌科技专业从事石墨电极材料生产线自动化控制系统集成，行业业绩有：中平瀚博、开封易成新能源等。</span>"+
+			"<span style=\"line-height:1.5;font-family:SimSun;font-size:13.5pt;\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:13.5pt;\">石墨负电极材料生产包含粗磨、研磨、混料、成型、包装等诸多环节。行业特点是设备数量多</span>"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:13.5pt;\">，联锁控制关系繁杂；定量控制多样化；设备间通讯复杂化。是典型的分布式控制系统。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">核心控制工艺中，粒度控制为生产的重中之重，通过精确控制磨粉电机、研磨电机的电流、压力等参数，达到控制产品的颗粒度的目的。</span>"+
+		"</p>"+
+		"<img alt=\"\" src=\"admin/kindeditor/attached/image/20190307/2019030714490816816.png\">"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<br>"+
+		"</p>"+
+		"<blockquote>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:14pt;\">1. </span>"+
+			"<span style=\"line-height:2;font-family:宋体;font-size:14pt;\"><span style=\"color:#000000;line-height:2;font-family:SimSun;\">系统配置方案</span></span>"+
+		"</blockquote>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">上位机选用专用工控机，下位机选用西门子</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">S7 315-2DP PLC</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">。通过</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">DP</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">通讯总线连接远程</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">I/O</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">模块以及用于研磨机控制的</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">S7200 PLC</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">主机，可方便进行系统扩展。上位机设操作员站、工程师站和数据服务器，数据服务器负责将底层控制数据通过以太网传输到企业管理服务器上，为</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">MES</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">系统提供数据服务。</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">大量的变频器、称重仪表通过</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">MODBUS RTU</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">通讯总线连接到主</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">PLC</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">和上位机，构成集中管理、分散控制的系统架构。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;font-family:SimSun;font-size:13.5pt;\">"+
+				"<img alt=\"\" src=\"admin/kindeditor/attached/image/20170220/20170220145785108510.jpg\" width=\"700\" height=\"552\"><br>"+
+			"</span>"+
+		"</p>"+
+		"<blockquote>"+
+			"<p>"+
+				"<span style=\"font-family:宋体;font-size:14pt;\">"+
+					"<span style=\"color:#000000;line-height:2;font-family:SimSun;\">2. </span>"+
+				"</span>"+
+				"<span style=\"font-family:宋体;font-size:14pt;\">"+
+					"<span style=\"color:#000000;line-height:2;font-family:SimSun;\">系统控制方案</span>"+
+					"<span></span>"+
+				"</span>"+
+			"</p>"+
+			"<img alt=\"\" src=\"admin/kindeditor/attached/image/20190307/2019030714500963963.jpg\">"+
+			"<p></p>"+
+		"</blockquote>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:14pt;\">2.1 </span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">粗磨粉线的顺启逆停控制和电流自动调节系统</span>"+
+			"<span style=\"font-family:宋体;font-size:14pt;\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">粗磨粉线要求对现场近百台电机启停进行控制，方式为顺起逆停。通过变频器精确控制外分级转速，通过控制外分级转速调节磨粉主机电流。应用串级</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">PID</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">控制算法，以主机电流为主控制目标，控制磨粉粒度，精确控制产品品质。</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:14pt;\">2.2 </span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">脉冲除尘器进出口压差控制</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">脉冲除尘器进出口压差很小，属于微差压控制。介质含有极细的石墨粉尘颗粒，在压力变送器的选型和安装上都有很多技术要求。</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:14pt;\">2.3 </span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">研磨机控制</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">一个车间共</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">60</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">台研磨机，需要控制的总电机数量有近</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">300</span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">"+
+				"台。所有研磨机需要统一循环布料控制；每台研磨机有电流和研磨时间的控制要求。研磨是非常重要的工艺环节，研磨工段实现自动化生产后，大幅提高了研磨质量。不仅节省了大量的人力，改善了工作环境，而且还大大提高了生产效率。"+
+			"</span>"+
+			"<span style=\"color: black; font-family: ;\" new?;font-size:13.5pt;?=\"\" courier=\"\"></span>"+
+		"</p>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:14pt;\">2.4 </span>"+
+			"<span style=\"color:#000000;line-height:2;font-family:SimSun;font-size:13.5pt;\">其他还有混料定量控制，筛分工段控制等。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<span style=\"color:#000000;font-family:SimSun;font-size:13.5pt;\">"+
+				"<img alt=\"\" src=\"admin/kindeditor/attached/image/20170216/20170216111898489848.png\" width=\"700\" height=\"394\"><br>"+
+			"</span>"+
+		"</p>"+
+		"<p style=\"text-indent:28pt;\">"+
+			"<br>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
+				"中平瀚博新能源有限公司是平煤集团下属子公司，在石墨电极材料生产领域走在同行业前列。拥有国内先进的工艺技术和专利生产设备。其一车间的石墨电极材料生产线自动化控制系统由青岛华凌科技有限公司设计集成，2015年正式投入使用，成为全厂运行效率最高、生产质量最稳定、生产设备最先进的生产车间。"+
+			"</span>"+
+		"</p>"+
+		"<p style=\"text-indent:27pt;\">"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
+				"开封易成新能源是平煤集团下属另一家上市公司，生产动力电池电极材料工艺和中平瀚博大同小异，但产量是前者的四倍。易成新能源最新的石墨负电极材料生产线控制点数在一万两千点左右，属于大型DCS系统，也是由青岛华凌科技设计集成。"+
+			"</span>"+
+		"</p>"+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		"";
+	
+    prenext+="<ul>";
+    prenext+="<a href=\"show.html?cid=3&amp;id=32\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=33\"><li>下一条 &gt;&gt; </li></a>";
+    prenext+="</ul>";
   }
   else if(cid==3&id==31){
     title+="行业解决方案";
