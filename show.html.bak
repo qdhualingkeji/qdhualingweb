@@ -1632,2112 +1632,2096 @@ jQuery(document).ready(function(){
 		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\"></span>"+
 		"<img alt=\"\" src=\"admin/kindeditor/attached/image/20161207/20161207100840034003.png\">"+
 	"</p>"+
-		"<p style=\"margin-left:0cm;\">"+
-			"<b>"+
-				"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\"> 4</span>"+
-			"</b>"+
-			"<b>"+
-				"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">、控制策略</span>"+
-			"</b>"+
-			"<b></b>"+
+	"<p style=\"margin-left:0cm;\">"+
+		"<b>"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\"> 4</span>"+
+		"</b>"+
+		"<b>"+
+			"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">、控制策略</span>"+
+		"</b>"+
+		"<b></b>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱硝控制系统的硬件和软件与单元机组</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的硬件和软件均采用优稳</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系列，脱硝工艺系统即</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统作为单元机组</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的一个子站分别纳入到单元机组</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统进行控制，还原剂存储、制备、供应系统则作为公用</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的一个远程</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">I/O</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">站纳入到公用</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统进行控制。公用</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">和单元机组</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">之间通过冗余的光纤通讯连接。运行人员直接通过集控室中单元机组</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">操作员站完成对脱硝系统参数和设备的监控，氨制备区的监控在公用</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">上实现。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱销控制系统主要实现两部分功能，一部分为氨系统的控制，由公用</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">中的一对用于氨制备区的</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">CP</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
+		"负责实现，这部分主要实现氨的卸载，贮罐的转运，提供反应器所需氨蒸汽以及贮罐各工艺参数的监视及事故状况下的应急处理。其主要的控制对象为氨压缩机系统、贮罐、污水坑泵、氨蒸发器、氨卸载控制盘。另一部分为反应器区的控制，由"+
+		"</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR_DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">负责，每台炉两个反应器设一对</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">CP,</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">由这部分主要实现</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱出浓度的控制及反应器各工况的监视、吹灰控制，其主要控制对象包括稀释空气风机、吹灰器、氨流量控制阀等。</span>"+
+		"<span></span> "+
+	"</p>"+
+	"<p>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\"> 4.1 氨供应系统仪表和控制逻辑</span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液氨贮罐区域安装有氨泄漏检测仪以探测空气中的氨系统所泄漏的氨。若检测仪控测到游离氨，将发送</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号给</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统并触发声光报警并自动打开贮罐水喷淋系统。氨浓度为超高位报警时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将关闭整个氨系统，停止贮罐向蒸发器供应液氨。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统运行中当安装在贮罐上的测温热电阻检测到贮罐温度达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">38</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将自动打开贮罐水喷淋系统，打开水喷淋关断阀以冷却贮罐，当</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">监视到贮罐温度降到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">35</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，操作人员应关闭贮罐水喷淋系统。当贮罐温度达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">40</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警。当安装在贮罐上的压力变送器检测到贮罐压力达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">1.8MPa </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警，贮罐压力达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">2MPa</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警，操作人员应打开贮罐水喷淋系统，打开水喷淋关断阀以冷却贮罐，降低贮罐压力。</span>"+
+		"<span></span> "+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">蒸发器配有检测热媒（乙二醇水溶液）液位计，当液位低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">300mm(</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">顶部为</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0 </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液位</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">)</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器，关闭相应的电加热器；当液位高于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">100mm(</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">顶部为</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0 </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液位</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">)</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">,</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">需要操作人员手动处理，排出多余的热媒溶液。每个蒸发器出口装有液氨液位计，当液位低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">50mm </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警；当液位高于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">500mm </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器。蒸发器配有检测热媒（乙二醇水溶液）热电阻用于温度的控制，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">通过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">PID </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">调节自动控制热媒温度为</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">60</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃。蒸发器配有热媒（乙二醇水溶液）温度开关，用于蒸发器热媒的超温度保护，当温度高于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">65</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器，关闭相应的电加热器。蒸发器出口氨管道上安装有检测氨气温度的热电阻，当温度低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃或高于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">48</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警。操作人员需要检查蒸发器热媒液位和温度是否正常，并排除故障。蒸发器出口氨管道上安装有检测氨气压力的压力变送器，当压力分别低于低位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.3MPaG</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）、超低位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.25MPaG</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）或高于高位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">1.4MPaG</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">），</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警。每个蒸发器出口安装有自力式压力调节阀，以确保供应</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">的气态氨具有恒定的压力。当蒸发器投入运行，准备好向</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨后，压力调节管线同时亦准备好向</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应氨气。自力式压力调节阀出口设有压力表就地显示蒸发器蒸发压力；压力调节阀出口亦设有压力开关，当检测到压力分别低于低位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.09MPaG</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）、或高于高位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.12MPaG</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">），</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器的气态氨供应即关闭出口阀。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">蒸发器区域安装有两个氨泄漏检测仪 以探测空气中的氨系统所泄漏的氨。若检测仪控测到游离氨，氨浓度为高位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">25ppmv</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）时，将发送</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号给</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统并触发声光报警并可自动打开贮罐水喷淋系统，打开水喷淋关断阀。氨浓度为超高位（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">35ppmv</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）报警时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将关闭所在蒸发器，停止向</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应氨蒸汽和关闭整个氨系统，关闭贮罐出口阀门。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">稀释空气风机向氨</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合器供给空气，使气态氨的浓度低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">LEL </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">值，由于氨气流量较小，经稀释后也有利于氨注入后在烟道中的均匀分布。本项目氨气的浓度设定为</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％（</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">V/V</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）进行控制。当氨与空气的比列上升到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">8</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％时，控制室</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">显示屏发出警报，达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">10</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％时，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">自动关闭氨流量调节阀入口的关断阀。氨</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合器入口稀释空气管道上的流量计检测到的空气流量低于设定的低值，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端控制屏上报警，三分种后启动备用风机，如果释空气流量降到了设定的超低值，则关闭氨供应阀门，停止向</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨。</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">比较稀释空气流量和氨的流量，如果氨的浓度超过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">8</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％就报警，如果氨的浓度超过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">10</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％，则关闭氨供应阀门，停止向</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
+			"从蒸发器出口压力调节阀流出的气态氨经管线分别进入氨流量监测段，入口氨气压力由分别由压力表就地指示，流量、温度和压力分别由孔板流量计、热电阻、压力变送器检测，这些数据由</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">AI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号输入</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">。压力变送器测得的压力低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">70KPaG </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，在</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端的脱硝供氨公用系统屏上产生氨低压报警，提醒操作人员供氨压力过低，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">亦通过计算模块对流量计测得的流量提供压力补偿。热电阻测得的温度低于</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">-10</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，在</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端的脱硝供氨公用系统屏上产生氨低温报警，提醒操作人员需要启动液氨泵，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">亦通过计算模块对流量计测得的流量提供温度补偿。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">进入氨注射栅格氨</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合物中氨浓度设计为不超过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％。氨气流量由闭环控制系统控制，流量计测得的流量经温度和压力修正。作为工艺控制数据进入</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">的氨气</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">PI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">流量控制器。</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">根据</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">反应器出口的</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">检测值和设定值间的差值计算需要增加的气氨流量，再加上流量计测得的流量与稀释空气流量比较和计算氨的浓度，确保没有超过准许最大氨的浓度设计值。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">如果比较结果合格，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">PI </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制器计算阀门控制变量并控制流量调节阀的开度。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">出现以下条件，氨流量关断阀将自动联锁关闭：</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">反应器入口温度</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">&gt;430</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">°</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">C </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">或＜</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">310</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">°</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">C</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">反应器出口温度</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">&gt;430</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">°</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">C </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">或＜</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">310</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">°</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">C</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">注入烟道的氨</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合物中的氨浓度超过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">10</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％的时间达到</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5 </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">秒钟。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">氨</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合器入口的稀释空气流量小于设定值超过</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5 </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">秒钟</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR 反应器入口挡板未开启。</span><span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">氨系统未准备好供应气态氨。</span><span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">任何氨系统事故报警发生。</span><span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">如果氨流量关断阀自动联锁关闭，</span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将关闭信号传给氨流量开断阀，维持关闭状。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
+			"<img alt=\"\" src=\"admin/kindeditor/attached/image/20161207/20161207100972467246.png\" width=\"700\" height=\"411\"><br>"+
+		"</span> "+
+	"</p>"+
+	"<p>"+
+		"<span style=\"line-height:2;font-size:18px;\"> 4.2 SCR 反应器仪表和控制逻辑</span><span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">烟道上设置必要测点用于</span><span style=\"line-height:2;font-size:18px;\">SCR </span><span style=\"line-height:2;font-size:18px;\">反应的监测和控制，主要如下：</span><span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR 入口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">：每个反应器入口烟道设置一个</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">测点，用于监测</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">入口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">反应器入口温度：每个反应器入口烟道设有温度测点，用于监测</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">入口温烟气温度。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">反应器出口温度：每个反应器出口烟道设有温度测点，用于监测</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">出口温烟气温度。</span>"+
+		"<span></span> "+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR 出口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">：每个反应器出口烟道设置一个</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">测点，用于监测</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">出口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">反应器进出口（催化剂</span>"+
+		"<span style=\"line-height:2;font-size:18px;\"></span>"+
+		"<span style=\"line-height:2;font-size:18px;\">）差压：每个反应器安装有催化剂进出口的差压计。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<span style=\"line-height:2;font-size:18px;\">反应器出口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">O2 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度：每个反应器出口设置一个</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">O2 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">测点以测量烟气中的</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">O2 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度，用于</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">测量值的修正。</span>"+
+		"<span></span>"+
+	"</p>"+
+	"<p>"+
+		"<span style=\"line-height:2;font-size:18px;\"> 当</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">入口烟气温度大于</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">400</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">℃或小于</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">315</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">℃时，</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">将在终端屏发出警报信息；当入口烟气温度大于</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">430</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">℃或小于</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">310</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">℃时，</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">将在终端屏发出警报信息的同时，自动关闭</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">的氨供应，即关闭相应的气氨关断阀。反应器出口</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度</span>"+
+		"<span style=\"line-height:2;font-size:18px;\"> &lt;130 ppm</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">超过</span>"+
+		"<span style=\"line-height:2;font-size:18px;\"> 15 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">分钟的时间，</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">将在终端屏发出警报信息；当</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">NOX </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">浓度</span>"+
+		"<span style=\"line-height:2;font-size:18px;\"> &lt; 100 ppm</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">超过</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">30 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">秒，</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">将在终端屏发出警报信息的同时，自动关闭</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">的氨供应，即关闭相应的气氨关断阀。当催化剂进出口差压达到设定值，</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">"+
+			"将在终端屏发出警报信息，提醒操作员催化剂需要及时吹灰。每台机组两个反应器催化剂吹灰器共用一套蒸汽管道系统，吹灰蒸汽汽源引自从锅炉吹灰蒸汽管道减压站出口。每一吹灰器带有一个入口控制阀用于控制蒸汽压力。每台机组"+
+		"</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">吹灰系统有一个用于低压报警的压力开关和一个用于高压报警的压力开关，用于监视到吹灰器的蒸汽压力，持续</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">(10 </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">秒</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">)</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">低压条件将导致当前运行的吹灰器停车和缩回；每台机组</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">包括一个温度计和一个温度传感器用于监视到吹灰器的蒸汽温度，低温条件将导致当前运行的吹灰器停车和缩回；脱硝吹灰系统由</span>"+
+		"<span style=\"line-height:2;font-size:18px;\">SCR DCS </span>"+
+		"<span style=\"line-height:2;font-size:18px;\">"+
+			"直接进行控制。控制室操作员可以通过DCS 的脱硝辅助系。统控制屏启动和停止吹灰系统或由DCS自动控制吹灰器的启停。每天对脱硝催化剂进行3 次吹灰或根据催化剂进出口差压的设定值联锁自动启动吹灰器进行吹灰。"+
+		"</span>"+
+	"</p>"+
+	"<p style=\"text-indent:0cm;margin-left:0cm;\">"+
+		"<b><span style=\"line-height:2;font-size:18px;\"> 5、</span></b>"+
+		"<b><span style=\"line-height:2;font-size:18px;\">控制工程</span></b>"+
+		"<b></b>"+
+	"</p>"+
+	"<p>"+
+		"<span style=\"font-family:宋体;\">"+
+			"<span style=\"line-height:2;font-size:18px;\"> </span>"+
+			"<span></span>"+
+			"<span style=\"line-height:2;font-size:18px;\">DCS集散控制系统在</span>"+
+			"<span style=\"line-height:2;font-size:18px;\">SCR</span>"+
+			"<span style=\"line-height:2;font-size:18px;\">脱硝控制系统的应用，硬件配置、网络架构及工艺流程图。</span>"+
+		"</span>"+
+	"</p>"+
+	"<p>"+
+		"<span style=\"font-family:宋体;\"><span style=\"line-height:2;font-size:18px;\"> <img alt=\"\" src=\"admin/kindeditor/attached/image/20161207/20161207101395469546.jpg\" width=\"700\" height=\"474\"></span></span>"+
+	"</p>"+
+	"<p>"+
+		"<span style=\"font-family:宋体;\"><span style=\"line-height:2;font-size:18px;\"> <img alt=\"\" src=\"admin/kindeditor/attached/image/20161207/20161207101457465746.png\" width=\"700\" height=\"450\"></span></span>"+
+	"</p>"+
+	"<p style=\"font-size:18px;margin-left:0cm;\">"+
+		"<b> 6</b><b>、小结</b><b></b>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;font-size:18px;\">"+
+		"选择性催化还原法脱硝（<span>SCR</span>）在使用了<span>DCS</span>集散控制系统之后，能够改善工人的工作强度，提高脱硝的效率，利用<span>DCS</span>强大集散控制能力，对现场仪表进行协调运行。<span>DCS</span>特有的联锁控制也提高了脱硝工段的安全性，<span>DCS</span>集散控制系统的稳定性也使得生产过程稳定易控。<span></span>"+
+	"</p>"+
+	"<p style=\"text-indent:24pt;\">"+
+		"<br>"+
+	"</p>"+
+	"<p style=\"font-size:18px;\">"+
+		"<b> 公司近期部分工程业绩：</b><b></b>"+
+	"</p>"+
+	"<p style=\"font-size:18px;\">"+
+		"脱硫脱硝DCS行业部分业绩：<span style=\"line-height:21px;font-family:SimSun;font-size:14px;\"></span>"+
+		"<span style=\"line-height:21px;font-family:SimSun;font-size:14px;\"></span>"+
+	"</p>"+
+	"<div style=\"overflow-x:auto;\">"+
+		"<p style=\"text-align:left;\">"+
+			"<span>"+
+				"<span style=\"line-height:21px;font-size:14px;\"></span>"+
+			"</span>"+
 		"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱硝控制系统的硬件和软件与单元机组</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的硬件和软件均采用优稳</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系列，脱硝工艺系统即</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统作为单元机组</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的一个子站分别纳入到单元机组</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统进行控制，还原剂存储、制备、供应系统则作为公用</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统的一个远程</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">I/O</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">站纳入到公用</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统进行控制。公用</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">和单元机组</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">之间通过冗余的光纤通讯连接。运行人员直接通过集控室中单元机组</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">操作员站完成对脱硝系统参数和设备的监控，氨制备区的监控在公用</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">上实现。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱销控制系统主要实现两部分功能，一部分为氨系统的控制，由公用</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">中的一对用于氨制备区的</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">CP</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
-	"负责实现，这部分主要实现氨的卸载，贮罐的转运，提供反应器所需氨蒸汽以及贮罐各工艺参数的监视及事故状况下的应急处理。其主要的控制对象为氨压缩机系统、贮罐、污水坑泵、氨蒸发器、氨卸载控制盘。另一部分为反应器区的控制，由"+
-	"</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR_DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">负责，每台炉两个反应器设一对</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">CP,</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">由这部分主要实现</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">NOX</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">脱出浓度的控制及反应器各工况的监视、吹灰控制，其主要控制对象包括稀释空气风机、吹灰器、氨流量控制阀等。</span>"+
-	"<span></span> "+
-"</p>"+
-"<p>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\"> 4.1 氨供应系统仪表和控制逻辑</span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液氨贮罐区域安装有氨泄漏检测仪以探测空气中的氨系统所泄漏的氨。若检测仪控测到游离氨，将发送</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号给</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统并触发声光报警并自动打开贮罐水喷淋系统。氨浓度为超高位报警时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将关闭整个氨系统，停止贮罐向蒸发器供应液氨。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统运行中当安装在贮罐上的测温热电阻检测到贮罐温度达到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">38</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将自动打开贮罐水喷淋系统，打开水喷淋关断阀以冷却贮罐，当</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">监视到贮罐温度降到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">35</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，操作人员应关闭贮罐水喷淋系统。当贮罐温度达到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">40</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警。当安装在贮罐上的压力变送器检测到贮罐压力达到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">1.8MPa </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警，贮罐压力达到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">2MPa</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端屏上将显示报警，操作人员应打开贮罐水喷淋系统，打开水喷淋关断阀以冷却贮罐，降低贮罐压力。</span>"+
-	"<span></span> "+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">蒸发器配有检测热媒（乙二醇水溶液）液位计，当液位低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">300mm(</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">顶部为</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0 </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液位</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">)</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器，关闭相应的电加热器；当液位高于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">100mm(</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">顶部为</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0 </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">液位</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">)</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">,</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">需要操作人员手动处理，排出多余的热媒溶液。每个蒸发器出口装有液氨液位计，当液位低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">50mm </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警；当液位高于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">500mm </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器。蒸发器配有检测热媒（乙二醇水溶液）热电阻用于温度的控制，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">通过</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">PID </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">调节自动控制热媒温度为</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">60</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃。蒸发器配有热媒（乙二醇水溶液）温度开关，用于蒸发器热媒的超温度保护，当温度高于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">65</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器，关闭相应的电加热器。蒸发器出口氨管道上安装有检测氨气温度的热电阻，当温度低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃或高于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">48</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警。操作人员需要检查蒸发器热媒液位和温度是否正常，并排除故障。蒸发器出口氨管道上安装有检测氨气压力的压力变送器，当压力分别低于低位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.3MPaG</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）、超低位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.25MPaG</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）或高于高位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">1.4MPaG</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">），</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警。每个蒸发器出口安装有自力式压力调节阀，以确保供应</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">的气态氨具有恒定的压力。当蒸发器投入运行，准备好向</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨后，压力调节管线同时亦准备好向</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应氨气。自力式压力调节阀出口设有压力表就地显示蒸发器蒸发压力；压力调节阀出口亦设有压力开关，当检测到压力分别低于低位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.09MPaG</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）、或高于高位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">0.12MPaG</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">），</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">控制终端屏上将报警，并自动关闭蒸发器的气态氨供应即关闭出口阀。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">蒸发器区域安装有两个氨泄漏检测仪 以探测空气中的氨系统所泄漏的氨。若检测仪控测到游离氨，氨浓度为高位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">25ppmv</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）时，将发送</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号给</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">系统并触发声光报警并可自动打开贮罐水喷淋系统，打开水喷淋关断阀。氨浓度为超高位（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">35ppmv</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）报警时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">将关闭所在蒸发器，停止向</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应氨蒸汽和关闭整个氨系统，关闭贮罐出口阀门。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">稀释空气风机向氨</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合器供给空气，使气态氨的浓度低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">LEL </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">值，由于氨气流量较小，经稀释后也有利于氨注入后在烟道中的均匀分布。本项目氨气的浓度设定为</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％（</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">V/V</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">）进行控制。当氨与空气的比列上升到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">8</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％时，控制室</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">显示屏发出警报，达到</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">10</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％时，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">自动关闭氨流量调节阀入口的关断阀。氨</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合器入口稀释空气管道上的流量计检测到的空气流量低于设定的低值，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端控制屏上报警，三分种后启动备用风机，如果释空气流量降到了设定的超低值，则关闭氨供应阀门，停止向</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨。</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">比较稀释空气流量和氨的流量，如果氨的浓度超过</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">8</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％就报警，如果氨的浓度超过</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">10</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％，则关闭氨供应阀门，停止向</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">供应气态氨。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">"+
-		"从蒸发器出口压力调节阀流出的气态氨经管线分别进入氨流量监测段，入口氨气压力由分别由压力表就地指示，流量、温度和压力分别由孔板流量计、热电阻、压力变送器检测，这些数据由</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">AI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">信号输入</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">。压力变送器测得的压力低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">70KPaG </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">时，在</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端的脱硝供氨公用系统屏上产生氨低压报警，提醒操作人员供氨压力过低，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">亦通过计算模块对流量计测得的流量提供压力补偿。热电阻测得的温度低于</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">-10</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">℃时，在</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS HMI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">终端的脱硝供氨公用系统屏上产生氨低温报警，提醒操作人员需要启动液氨泵，</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">亦通过计算模块对流量计测得的流量提供温度补偿。</span>"+
-	"<span></span>"+
-"</p>"+
-"<p style=\"text-indent:24pt;\">"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">进入氨注射栅格氨</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">/</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">空气混合物中氨浓度设计为不超过</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">5</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">％。氨气流量由闭环控制系统控制，流量计测得的流量经温度和压力修正。作为工艺控制数据进入</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">的氨气</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">PI </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">流量控制器。</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">DCS </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">根据</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">SCR </span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">反应器出口的</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">NOX</span>"+
-	"<span style=\"line-height:2;font-family:SimSun;font-size:18px;\">检测值和设定值间的差值计算需要增加的气氨流量，再加上流量计测得的流量与稀释空气流量比较和计算氨的浓度，确保没有超过准许最大氨的浓度设计值。</span>"+
-	"<span></span>"+
-"</p>"+
-		"+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		""+
-		"";
-		"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">如果比较结果合格，</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">PI </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">控制器计算阀门控制变量并控制流量调节阀的开度。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">出现以下条件，氨流量关断阀将自动联锁关闭：</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">反应器入口温度</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">&gt;430</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">°</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">C </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">或＜</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">310</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">°</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">C</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">反应器出口温度</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">&gt;430</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">°</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">C </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">或＜</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">310</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">°</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">C</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">注入烟道的氨</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">/</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">空气混合物中的氨浓度超过</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">10</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">％的时间达到</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">5 </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">秒钟。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">氨</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">/</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">空气混合器入口的稀释空气流量小于设定值超过</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">5 </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">秒钟</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">SCR 反应器入口挡板未开启。</span><span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">氨系统未准备好供应气态氨。</span><span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">任何氨系统事故报警发生。</span><span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">如果氨流量关断阀自动联锁关闭，</span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">将关闭信号传给氨流量开断阀，维持关闭状。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-family:SimSun;font-size:18px;">
-		"<img alt="" src="/admin/kindeditor/attached/image/20161207/20161207100972467246.png" width="700" height="411"><br>
-	"</span> 
-"</p>
-"<p>
-	"<span style="line-height:2;font-size:18px;"> 4.2 SCR 反应器仪表和控制逻辑</span><span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">烟道上设置必要测点用于</span><span style="line-height:2;font-size:18px;">SCR </span><span style="line-height:2;font-size:18px;">反应的监测和控制，主要如下：</span><span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">SCR 入口</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">：每个反应器入口烟道设置一个</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">测点，用于监测</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">入口</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">浓度。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">反应器入口温度：每个反应器入口烟道设有温度测点，用于监测</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">入口温烟气温度。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">反应器出口温度：每个反应器出口烟道设有温度测点，用于监测</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">出口温烟气温度。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">SCR 出口</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">：每个反应器出口烟道设置一个</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">测点，用于监测</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">出口</span>
-	"<span style="line-height:2;font-size:18px;">NOX</span>
-	"<span style="line-height:2;font-size:18px;">浓度。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">反应器进出口（催化剂</span>
-	"<span style="line-height:2;font-size:18px;"></span>
-	"<span style="line-height:2;font-size:18px;">）差压：每个反应器安装有催化剂进出口的差压计。</span>
-	"<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<span style="line-height:2;font-size:18px;">反应器出口</span>
-	"<span style="line-height:2;font-size:18px;">O2 </span>
-	"<span style="line-height:2;font-size:18px;">浓度：每个反应器出口设置一个</span>
-	"<span style="line-height:2;font-size:18px;">O2 </span>
-	"<span style="line-height:2;font-size:18px;">测点以测量烟气中的</span>
-	"<span style="line-height:2;font-size:18px;">O2 </span>
-	"<span style="line-height:2;font-size:18px;">浓度，用于</span>
-	"<span style="line-height:2;font-size:18px;">NOX </span>
-	"<span style="line-height:2;font-size:18px;">测量值的修正。</span>
-	"<span></span> 
-"</p>
-"<p>
-	"<span style="line-height:2;font-size:18px;"> 当</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">入口烟气温度大于</span>
-	"<span style="line-height:2;font-size:18px;">400</span>
-	"<span style="line-height:2;font-size:18px;">℃或小于</span>
-	"<span style="line-height:2;font-size:18px;">315</span>
-	"<span style="line-height:2;font-size:18px;">℃时，</span>
-	"<span style="line-height:2;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-size:18px;">将在终端屏发出警报信息；当入口烟气温度大于</span>
-	"<span style="line-height:2;font-size:18px;">430</span>
-	"<span style="line-height:2;font-size:18px;">℃或小于</span>
-	"<span style="line-height:2;font-size:18px;">310</span>
-	"<span style="line-height:2;font-size:18px;">℃时，</span>
-	"<span style="line-height:2;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-size:18px;">将在终端屏发出警报信息的同时，自动关闭</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">的氨供应，即关闭相应的气氨关断阀。反应器出口</span>
-	"<span style="line-height:2;font-size:18px;">NOX </span>
-	"<span style="line-height:2;font-size:18px;">浓度</span>
-	"<span style="line-height:2;font-size:18px;"> &lt;130 ppm</span>
-	"<span style="line-height:2;font-size:18px;">超过</span>
-	"<span style="line-height:2;font-size:18px;"> 15 </span>
-	"<span style="line-height:2;font-size:18px;">分钟的时间，</span>
-	"<span style="line-height:2;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-size:18px;">将在终端屏发出警报信息；当</span>
-	"<span style="line-height:2;font-size:18px;">NOX </span>
-	"<span style="line-height:2;font-size:18px;">浓度</span>
-	"<span style="line-height:2;font-size:18px;"> &lt; 100 ppm</span>
-	"<span style="line-height:2;font-size:18px;">超过</span>
-	"<span style="line-height:2;font-size:18px;">30 </span>
-	"<span style="line-height:2;font-size:18px;">秒，</span>
-	"<span style="line-height:2;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-size:18px;">将在终端屏发出警报信息的同时，自动关闭</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">的氨供应，即关闭相应的气氨关断阀。当催化剂进出口差压达到设定值，</span>
-	"<span style="line-height:2;font-size:18px;">DCS </span>
-	"<span style="line-height:2;font-size:18px;">
-		将在终端屏发出警报信息，提醒操作员催化剂需要及时吹灰。每台机组两个反应器催化剂吹灰器共用一套蒸汽管道系统，吹灰蒸汽汽源引自从锅炉吹灰蒸汽管道减压站出口。每一吹灰器带有一个入口控制阀用于控制蒸汽压力。每台机组
-	"</span>
-	"<span style="line-height:2;font-size:18px;">SCR</span>
-	"<span style="line-height:2;font-size:18px;">吹灰系统有一个用于低压报警的压力开关和一个用于高压报警的压力开关，用于监视到吹灰器的蒸汽压力，持续</span>
-	"<span style="line-height:2;font-size:18px;">(10 </span>
-	"<span style="line-height:2;font-size:18px;">秒</span>
-	"<span style="line-height:2;font-size:18px;">)</span>
-	"<span style="line-height:2;font-size:18px;">低压条件将导致当前运行的吹灰器停车和缩回；每台机组</span>
-	"<span style="line-height:2;font-size:18px;">SCR </span>
-	"<span style="line-height:2;font-size:18px;">包括一个温度计和一个温度传感器用于监视到吹灰器的蒸汽温度，低温条件将导致当前运行的吹灰器停车和缩回；脱硝吹灰系统由</span>
-	"<span style="line-height:2;font-size:18px;">SCR DCS </span>
-	"<span style="line-height:2;font-size:18px;">
-		"直接进行控制。控制室操作员可以通过DCS 的脱硝辅助系。统控制屏启动和停止吹灰系统或由DCS自动控制吹灰器的启停。每天对脱硝催化剂进行3 次吹灰或根据催化剂进出口差压的设定值联锁自动启动吹灰器进行吹灰。
-	"</span> 
-"</p>
-"<p style="text-indent:0cm;margin-left:0cm;">
-	"<b><span style="line-height:2;font-size:18px;"> 5、</span></b>
-	"<b><span style="line-height:2;font-size:18px;">控制工程</span></b>
-	"<b></b> 
-"</p>
-"<p>
-	"<span style="font-family:宋体;">
-		"<span style="line-height:2;font-size:18px;"> </span>
-		"<span></span>
-		"<span style="line-height:2;font-size:18px;">DCS集散控制系统在</span>
-		"<span style="line-height:2;font-size:18px;">SCR</span>
-		"<span style="line-height:2;font-size:18px;">脱硝控制系统的应用，硬件配置、网络架构及工艺流程图。</span>
-	"</span> 
-"</p>
-"<p>
-	"<span style="font-family:宋体;"><span style="line-height:2;font-size:18px;"> <img alt="" src="/admin/kindeditor/attached/image/20161207/20161207101395469546.jpg" width="700" height="474"></span></span> 
-"</p>
-"<p>
-	"<span style="font-family:宋体;"><span style="line-height:2;font-size:18px;"> <img alt="" src="/admin/kindeditor/attached/image/20161207/20161207101457465746.png" width="700" height="450"></span></span> 
-"</p>
-"<p style="font-size:18px;margin-left:0cm;">
-	"<b> 6</b><b>、小结</b><b></b> 
-"</p>
-"<p style="text-indent:24pt;font-size:18px;">
-	"选择性催化还原法脱硝（<span>SCR</span>）在使用了<span>DCS</span>集散控制系统之后，能够改善工人的工作强度，提高脱硝的效率，利用<span>DCS</span>强大集散控制能力，对现场仪表进行协调运行。<span>DCS</span>特有的联锁控制也提高了脱硝工段的安全性，<span>DCS</span>集散控制系统的稳定性也使得生产过程稳定易控。<span></span> 
-"</p>
-"<p style="text-indent:24pt;">
-	"<br>
-"</p>
-"<p style="font-size:18px;">
-	"<b> 公司近期部分工程业绩：</b><b></b> 
-"</p>
-"<p style="font-size:18px;">
-	"脱硫脱硝DCS行业部分业绩：<span style="line-height:21px;font-family:SimSun;font-size:14px;"></span>
-	"<span style="line-height:21px;font-family:SimSun;font-size:14px;"></span> 
-"</p>
-"<blockquote>
-	"<p style="text-align:left;">
-		"<span>
-		"<span style="line-height:21px;font-size:14px;"></span>
-		"</span> 
-		"</p>
-		"<table style="border:currentColor;width:545.75pt;border-collapse:collapse;" width="728" cellspacing="0" cellpadding="0" border="1">
-			"<tbody>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>青岛泰能热电有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>高分子脱硝自控项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>章丘埠村煤矿热电厂有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span>150</span><span><span>吨循环流化床锅炉项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>汶上县华翔热电有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span>2X70MW</span><span><span>高温热水炉脱硫脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>临沂兴源热力有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span>40T</span><span><span>锅炉</span><span>7.5MW</span><span>发电项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>临沂恒昌热电有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>锅炉脱硫项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博东鹏陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>青州奥普利金属材料有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>烧结机脱硫项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博景华建筑陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博金煜陶瓷科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>福建新福兴玻璃有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博狮王陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博景华建筑陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博京齐力陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博大唐瓷业有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博立丰陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东耿瓷集团有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东欧西曼陶瓷科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫、脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东晶峰玻璃科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>烟气脱硝除尘环保项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博碧玉建筑陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东源怡能源股份有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博格伦凯陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>河北省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>河北省邢台市柏乡县宝石纸业有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫工程</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博荣和泰陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>集散控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博金舜陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>集散控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博骏朗建陶有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博市淄川森基建陶有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博欧嘉陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博福来特建陶有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博大海建陶有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博锦辉陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博罗亿建筑陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博金狮王科技陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博荣佳陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博统一陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东中岳陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博市城东陶瓷厂</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博远航建陶有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博欣迪耐火材料有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>烟气脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博隆泰建筑陶瓷有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝窑炉项目</span><span>DCS</span><span>控制系统</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博朗风机电设备科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱销项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博金安耐火材料有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东旭坤玻璃制品有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东金瑞达环保科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>青州迪诺维制造有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>脱硫项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>中国石化集团胜利石油管理局临盘</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>社区管理中心供热锅炉脱硫脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>山东佳润新材料有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>锅炉脱硫脱硝项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>广西省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>广西农垦糖业集团防城精制糖有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>锅炉烟气治理改造项目（除尘系统和脱硝系统）</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>宁夏自治区</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>宁夏兴昊永胜盐业科技有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span><span>煤粉锅炉脱销项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>淄博源怡能源股份有限公司 </span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span>3X130</span><span><span>吨每小时锅炉烟气脱硫湿除项目</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				"<tr>
-					"<td style="border:1pt solid windowtext;" width="85">
-						"<p>
-							"<span><span>环保</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="104">
-						"<p>
-							"<span><span>山东省</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="293">
-						"<p>
-							"<span><span>瑞阳制药有限公司</span><span></span></span> 
-						"</p>
-					"</td>
-					"<td style="border:1pt solid windowtext;" width="246">
-						"<p>
-							"<span>35</span><span><span>吨每小时</span><span>(25</span><span>吨每小时</span><span>)</span><span>湿法烟气脱硫脱硝除尘工程</span><span></span></span> 
-						"</p>
-					"</td>
-				"</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>山东省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>山东省禹城市新园热电有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫脱硝项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>山东省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>山东国海化工有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫脱硝除尘项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>辽宁省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>渤海船舶重工有限责任公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫岛</span><span>DCS</span><span>项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>重庆市</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>重庆市渝琥玻璃有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>锅炉脱硝项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>福建省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>福建龙净环保股份有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫脱硝项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>辽宁省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>本溪泛亚环保热电有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>475th</span><span><span>锅炉</span><span>SNCR</span><span>脱硝工程</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>江苏省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>吴江艺龙实业有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>2*15t/h</span><span><span>循环流化床锅炉烟气脱硝工程</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>江苏省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>江苏四方锅炉</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>2</span><span><span>台</span><span>35</span><span>吨流化床锅炉锅炉改造项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>江苏省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>南通常安能源有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>供热</span><span>1</span><span>×</span><span>45</span><span>吨、</span><span>1</span><span>×</span><span>20</span><span>吨高温高压循环流化锅炉</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>石家庄热电二厂</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>3X220t/h</span><span><span>锅炉脱硫脱硝项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>秦皇岛宏兴实业有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>竖炉脱硫项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>新疆</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>羌县玖圣供热有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>循环流化床锅炉及配套建设燃料供热项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>西安西郊热电厂</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>石家庄永泰热电有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>烟气脱硫系统改造项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>石家庄高新技术产业开发区热电煤气公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>烟气脱硫系统改造项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>兴隆县鹏生热力有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>1X75t/h</span><span><span>锅炉配套及</span><span>1X12MW</span><span>发电机组</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>临城中联福石水泥有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>3000t/d</span><span><span>熟料水泥生产线及配套</span><span>9MW</span><span>余热发电工程</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>河北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>中电投石家庄新华热电分公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>4</span><span><span>×</span><span>75t/h+1</span><span>×</span><span>220t/h</span><span>机组烟气脱硫脱硝系统改造项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>湖北省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>四川龙蟒集团南漳龙蟒磷制品有限责任公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>7500kw+1500kw</span><span><span>余热发电工程，余热回收项目</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>内蒙古自治区</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>内蒙古佳辉硅化工有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>锅炉脱硫控制系统</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>内蒙古自治区</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>内蒙古大地云天化工有限公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span>120</span><span><span>万吨</span><span>/</span><span>年缓控释肥项目热电装置（</span><span>3</span><span>×</span><span>75t/h</span><span>燃煤锅炉系统</span><span>+1</span><span>×</span><span>12MW</span><span>汽轮机发电机组）</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>环保</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>内蒙古自治区</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>内蒙古五原县宏珠热电厂</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫脱硝控制系统</span><span></span></span> 
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td style="border:1pt solid windowtext;" width="85">
-						<p>
-							<span><span>化工</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="104">
-						<p>
-							<span><span>山西省</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="293">
-						<p>
-							<span><span>山西长治华诚焦化公司</span><span></span></span> 
-						</p>
-					</td>
-					<td style="border:1pt solid windowtext;" width="246">
-						<p>
-							<span><span>脱硫项目</span></span> 
-						</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<p>
-			<br>
-		</p>
-			</blockquote>
+		"<table style=\"border:currentColor;width:545.75pt;border-collapse:collapse;\" width=\"728\" cellspacing=\"0\" cellpadding=\"0\" border=\"1\">"+
+			"<tbody>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>青岛泰能热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>高分子脱硝自控项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>章丘埠村煤矿热电厂有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>150</span><span><span>吨循环流化床锅炉项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>汶上县华翔热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>2X70MW</span><span><span>高温热水炉脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>临沂兴源热力有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>40T</span><span><span>锅炉</span><span>7.5MW</span><span>发电项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>临沂恒昌热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>锅炉脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博东鹏陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>青州奥普利金属材料有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>烧结机脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博景华建筑陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博金煜陶瓷科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>福建新福兴玻璃有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博狮王陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博景华建筑陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博京齐力陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博大唐瓷业有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博立丰陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东耿瓷集团有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东欧西曼陶瓷科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫、脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东晶峰玻璃科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>烟气脱硝除尘环保项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博碧玉建筑陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东源怡能源股份有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博格伦凯陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>河北省邢台市柏乡县宝石纸业有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫工程</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博荣和泰陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>集散控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博金舜陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>集散控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博骏朗建陶有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博市淄川森基建陶有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博欧嘉陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博福来特建陶有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博大海建陶有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博锦辉陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博罗亿建筑陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博金狮王科技陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博荣佳陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博统一陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东中岳陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博市城东陶瓷厂</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博远航建陶有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博欣迪耐火材料有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>烟气脱硝项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博隆泰建筑陶瓷有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝窑炉项目</span><span>DCS</span><span>控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博朗风机电设备科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱销项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博金安耐火材料有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东旭坤玻璃制品有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东金瑞达环保科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>青州迪诺维制造有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>中国石化集团胜利石油管理局临盘</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>社区管理中心供热锅炉脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东佳润新材料有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>锅炉脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>广西省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>广西农垦糖业集团防城精制糖有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>锅炉烟气治理改造项目（除尘系统和脱硝系统）</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>宁夏自治区</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>宁夏兴昊永胜盐业科技有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>煤粉锅炉脱销项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>淄博源怡能源股份有限公司 </span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>3X130</span><span><span>吨每小时锅炉烟气脱硫湿除项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>瑞阳制药有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>35</span><span><span>吨每小时</span><span>(25</span><span>吨每小时</span><span>)</span><span>湿法烟气脱硫脱硝除尘工程</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东省禹城市新园热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山东省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山东国海化工有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝除尘项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>辽宁省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>渤海船舶重工有限责任公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫岛</span><span>DCS</span><span>项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>重庆市</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>重庆市渝琥玻璃有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>锅炉脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>福建省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>福建龙净环保股份有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>辽宁省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>本溪泛亚环保热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>475th</span><span><span>锅炉</span><span>SNCR</span><span>脱硝工程</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>江苏省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>吴江艺龙实业有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>2*15t/h</span><span><span>循环流化床锅炉烟气脱硝工程</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>江苏省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>江苏四方锅炉</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>2</span><span><span>台</span><span>35</span><span>吨流化床锅炉锅炉改造项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>江苏省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>南通常安能源有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>供热</span><span>1</span><span>×</span><span>45</span><span>吨、</span><span>1</span><span>×</span><span>20</span><span>吨高温高压循环流化锅炉</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>石家庄热电二厂</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>3X220t/h</span><span><span>锅炉脱硫脱硝项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>秦皇岛宏兴实业有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>竖炉脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>新疆</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>羌县玖圣供热有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>循环流化床锅炉及配套建设燃料供热项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>西安西郊热电厂</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>石家庄永泰热电有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>烟气脱硫系统改造项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>石家庄高新技术产业开发区热电煤气公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>烟气脱硫系统改造项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>兴隆县鹏生热力有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>1X75t/h</span><span><span>锅炉配套及</span><span>1X12MW</span><span>发电机组</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>临城中联福石水泥有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>3000t/d</span><span><span>熟料水泥生产线及配套</span><span>9MW</span><span>余热发电工程</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>河北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>中电投石家庄新华热电分公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>4</span><span><span>×</span><span>75t/h+1</span><span>×</span><span>220t/h</span><span>机组烟气脱硫脱硝系统改造项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>湖北省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>四川龙蟒集团南漳龙蟒磷制品有限责任公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>7500kw+1500kw</span><span><span>余热发电工程，余热回收项目</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>内蒙古自治区</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>内蒙古佳辉硅化工有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>锅炉脱硫控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>内蒙古自治区</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>内蒙古大地云天化工有限公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span>120</span><span><span>万吨</span><span>/</span><span>年缓控释肥项目热电装置（</span><span>3</span><span>×</span><span>75t/h</span><span>燃煤锅炉系统</span><span>+1</span><span>×</span><span>12MW</span><span>汽轮机发电机组）</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>环保</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>内蒙古自治区</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>内蒙古五原县宏珠热电厂</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫脱硝控制系统</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+				"<tr>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"85\">"+
+						"<p>"+
+							"<span><span>化工</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"104\">"+
+						"<p>"+
+							"<span><span>山西省</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"293\">"+
+						"<p>"+
+							"<span><span>山西长治华诚焦化公司</span><span></span></span>"+
+						"</p>"+
+					"</td>"+
+					"<td style=\"border:1pt solid windowtext;\" width=\"246\">"+
+						"<p>"+
+							"<span><span>脱硫项目</span></span>"+
+						"</p>"+
+					"</td>"+
+				"</tr>"+
+			"</tbody>"+
+		"</table>"+
+		"<p>"+
+			"<br>"+
+		"</p>"+
+	"</div>";
+
+	prenext+="<ul>";
+	prenext+="<a href=\"show.html?cid=3&amp;id=64\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=34\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
 
   }
   else if(cid==3&id==34){
@@ -4540,6 +4524,80 @@ jQuery(document).ready(function(){
 	prenext+="<a href=\"show.html?cid=3&amp;id=66\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=33\"><li>下一条 &gt;&gt; </li></a>";
 	prenext+="</ul>";
   }
+  else if(cid==3&id==62){
+    title+="行业解决方案";
+
+    content+="<h2>减水剂行业自动化典型解决方案</h2>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">华凌科技专业致力于减水剂行业DCS控制系统设计集成。DCS控制系统在减水剂行业的应用如下:</span>"+
+		"</p>"+
+		"<p style=\"margin-left:24pt;text-indent:0cm;\">"+
+			"<b><span style=\"font-size:18px;font-family:SimSun;line-height:2;\">工艺简介：</span></b><b></b>"+
+		"</p>"+
+		"<p style=\"margin-left:41.9pt;text-indent:-18pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">1、磺化工段</span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.9pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">"+
+				"将定量的工业萘加入磺化反应釜，并把194℃的蒸汽通入反应釜夹套对反应釜进行升温，在高温下萘开始融化，当温度升到135℃时停止加热，向反应釜滴加硫酸。之所以采用滴加的方式，是为了防止加入硫酸后释放大量热能导致温度过高。硫酸加入完毕后，继续通气加热，使物料温度上升到160~165℃，此时硫酸与工业萘开始进行磺化反应，生成α-萘磺酸与β-萘磺酸。此时为了保证化学反应顺利进行，必须通过调节蒸汽压力进行温度控制。还需要控制加入硫酸量，从而控制物料酸度。反应结束后，向反应釜通入蒸汽，加水稀释。"+
+			"</span>"+
+		"</p>"+
+		"<p style=\"margin-left:41.9pt;text-indent:-18pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">2、水解工段</span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.9pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">开启循环水向反应釜内加水，目的是通过水解反应去除α-萘磺酸。水解反应结束后，通入蒸气将β-萘磺酸压入缩合反应釜内进行缩合反应。</span>"+
+		"</p>"+
+		"<p style=\"margin-left:24pt;text-indent:0cm;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">3、缩合工段</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">缩合反应的要点是既要尽量缩短反应时间，又要使反应充分，得到长链分子。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">用冷却水对物料进行降温，加入甲醛。甲醛和物料发生反应，生成羰基离子。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">"+
+				"为保证甲醛最大限度羰基化，滴加速度要慢，一般控制在2小时左右。羰化反应结束后，通气加热，使物料温度上升到110℃，此时甲醛羰离子与β-萘磺酸开始进行缩合反应，生成萘系磺酸甲醛缩合物，缩合反应历时约4.5h。反应过程中，为了调节物料粘度，需补充部分稀释水。缩合反应结束后，将生成物转移到中和罐内进行中和反应。"+
+			"</span>"+
+		"</p>"+
+		"<p style=\"margin-left:41.9pt;text-indent:-18pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">3、中和工段</span>"+
+		"</p>"+
+		"<p style=\"margin-left:23.9pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">加入碱液中和减水剂的酸度，以达到增强减水剂的水溶性的目的。</span>"+
+		"</p>"+
+		"<p style=\"margin-left:24pt;text-indent:0cm;\">"+
+			"<b><span style=\"font-size:18px;font-family:SimSun;line-height:2;\">控制方案：</span></b><b></b>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">磺化反应的控制内容有：萘与硫酸的质量配比；磺化反应的温度控制以及磺化时间控制；</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">水解反应控制总酸度在29%左右，加水量一般为2～5克/克萘，用水量多对水解反应有利，但对缩合反应不利，故在控制好酸度的情况下，尽量少加水。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">缩合反应的控制要点：萘磺酸和甲醛的配比；缩合温度、酸度和时间控制</span>"+
+		"</p>"+
+		"<p style=\"margin-left:24pt;text-indent:0cm;\">"+
+			"<b><span style=\"font-size:18px;font-family:SimSun;line-height:2;\">应用效果</span></b><b></b>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">山东万山减水剂生产线应用DCS控制系统后后，大幅提高了生产效率和产品质量，在不增加车间人员情况下，生产线规模得到快速扩建。使得客户在同行业中快速跃居领先水平。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:24pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">"+
+				"<img alt=\"\" src=\"admin/kindeditor/attached/image/20161031/2016103109360861861.jpg\" width=\"700\" height=\"466\"><br>"+
+			"</span>"+
+		"</p>";
+    
+	prenext+="<ul>";
+	prenext+="<a href=\"show.html?cid=3&amp;id=34\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=31\"><li>下一条 &gt;&gt; </li></a>";
+	prenext+="</ul>";
+
+
+  }
   else if(cid==3&id==33){
     title+="行业解决方案";
 
@@ -4703,6 +4761,65 @@ jQuery(document).ready(function(){
     prenext+="<ul>";
     prenext+="<a href=\"show.html?cid=3&amp;id=33\"><li> &lt;&lt; 上一条</li></a><a href=\"show.html?cid=3&amp;id=31\"><li>下一条 &gt;&gt; </li></a>";
     prenext+="</ul>";
+  }
+  else if(cid==3&id==61){
+    title+="行业解决方案";
+
+    content+="<h2>轻工制药行业典型解决方案</h2>"+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		""+
+		"";
+
+		<p>
+	<span><span></span><span><span style="font-size:18px;line-height:2;"></span><span style="font-size:18px;font-family:SimSun;line-height:2;"><strong>1</strong></span></span><span style="font-size:18px;font-family:SimSun;line-height:2;"><strong>、行业概述</strong></span> </span>
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">随着企业规模不断扩大及产品多样化，完善工艺操作及工艺控制，充分挖掘技术及管理潜力，创造更佳经济效益，实现管理及决策的自动化和科学化日益显得重要，自动化技术与信息技术的应用，是制药企业发展的迫切需要。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">华凌科技针对制药行业设计集成的</span><span style="font-size:18px;line-height:2;">DCS</span><span style="font-size:18px;line-height:2;">自动化控制系统涉及生物化工过程关键工业设备或工业过程，如发酵罐、反应釜、提取罐、蒸发器等，进行软测量、过程控制、过程优化、系统集成与工程应用的总结提炼与考核完善，最终形成生物化工过程成套专用控制系统，并分品种按单元进行应用实施，获得单元设备最佳经济效益；随后，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。最终，建立全厂信息管理系统，实现综合自动化。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;"><strong>2</strong></span><span style="font-size:18px;line-height:2;"><strong>、主要功能与技术指标</strong></span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">1</span><span style="font-size:18px;line-height:2;">）生物发酵过程成套专用控制系统。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">包括生物发酵过程参数测量系统：发酵罐温度</span><span style="font-size:18px;line-height:2;">T</span><span style="font-size:18px;line-height:2;">、发酵罐压力</span><span style="font-size:18px;line-height:2;">P</span><span style="font-size:18px;line-height:2;">、发酵液体积</span><span style="font-size:18px;line-height:2;">V</span><span style="font-size:18px;line-height:2;">、空气流量</span><span style="font-size:18px;line-height:2;">FA</span><span style="font-size:18px;line-height:2;">、冷却水进出口温度</span><span style="font-size:18px;line-height:2;">T1</span><span style="font-size:18px;line-height:2;">和</span><span style="font-size:18px;line-height:2;">T2</span><span style="font-size:18px;line-height:2;">、搅拌马达转速</span><span style="font-size:18px;line-height:2;">RPM</span><span style="font-size:18px;line-height:2;">、搅拌马达电流</span><span style="font-size:18px;line-height:2;">I</span><span style="font-size:18px;line-height:2;">、泡沫高度</span><span style="font-size:18px;line-height:2;">H</span><span style="font-size:18px;line-height:2;">等发酵过程物理参数；</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">值和溶解氧浓度</span><span style="font-size:18px;line-height:2;">Do</span><span style="font-size:18px;line-height:2;">等发酵过程化学参数；生物质呼吸代谢参数、生物质浓度、代谢产物浓度、底物浓度以及生物比生长速率、底物消耗速率和产物形成速率等发酵过程生物参数。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">生物发酵过程常规控制系统：消泡控制、罐温控制、罐压控制、</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">控制、溶氧控制、补料控制等。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">生物发酵过程建模、先进控制与优化：</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">、反应温度的优化曲线控制、培养基添加过程优化策略、传递过程优化策略等。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">2</span><span style="font-size:18px;line-height:2;">）合成反应过程成套专用控制系统。以间歇生产过程综合经济指标最优为目标，集间歇生产管理和间歇生产过程控制为一体的间歇控制系统。它除了包括程序间歇控制系统的全部功能外，还有配方处理、过程优化、在线或离线的统计过程控制、批量生产管理、计划与调度、能量管理等功能。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">3</span><span style="font-size:18px;line-height:2;">）中药提取过程成套专用控制系统：现代中药制备工艺包括：药材</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水洗</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">烘干</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">切碎</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水提取三次</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">过滤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">树脂吸附</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水洗涤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">洗脱</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">减压浓缩</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">醇沉</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">过滤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">减压浓缩</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">低温干燥或喷雾干燥</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">成品；中药提取生产过程，是依据</span><span style="font-size:18px;line-height:2;">GMP</span><span style="font-size:18px;line-height:2;">规范，按给定的配方，生产一定量产品的过程，是典型的间歇生产过程。其主要特点是：小批量、多品种，其特征是：物料流动的不连续性、物料和设备的非稳态性、产品及其工艺的不确定性和设备资源的动态调度分配。包括中药提取过程顺序控制、离散控制、调节控制、配方处理、设备管理、生产调度和跟踪功能、操作优化等。</span><span></span> 
+</p>
+<p style="text-indent:23.65pt;">
+	<span style="font-size:18px;line-height:2;">4</span><span style="font-size:18px;line-height:2;">）</span><span style="font-size:18px;line-height:2;">IMES</span><span style="font-size:18px;line-height:2;">制造执行系统：在过程控制系统基础上，基于非结构化数据管理系统的制药企业集成信息平台，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理等，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。</span><span></span> 
+</p>
+
+
   }
   else if(cid==3&id==31){
     title+="行业解决方案";
