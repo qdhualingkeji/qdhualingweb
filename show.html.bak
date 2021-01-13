@@ -4782,42 +4782,170 @@ jQuery(document).ready(function(){
 		""+
 		""+
 		""+
-		""+
 		"";
 
-		<p>
-	<span><span></span><span><span style="font-size:18px;line-height:2;"></span><span style="font-size:18px;font-family:SimSun;line-height:2;"><strong>1</strong></span></span><span style="font-size:18px;font-family:SimSun;line-height:2;"><strong>、行业概述</strong></span> </span>
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">随着企业规模不断扩大及产品多样化，完善工艺操作及工艺控制，充分挖掘技术及管理潜力，创造更佳经济效益，实现管理及决策的自动化和科学化日益显得重要，自动化技术与信息技术的应用，是制药企业发展的迫切需要。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">华凌科技针对制药行业设计集成的</span><span style="font-size:18px;line-height:2;">DCS</span><span style="font-size:18px;line-height:2;">自动化控制系统涉及生物化工过程关键工业设备或工业过程，如发酵罐、反应釜、提取罐、蒸发器等，进行软测量、过程控制、过程优化、系统集成与工程应用的总结提炼与考核完善，最终形成生物化工过程成套专用控制系统，并分品种按单元进行应用实施，获得单元设备最佳经济效益；随后，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。最终，建立全厂信息管理系统，实现综合自动化。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;"><strong>2</strong></span><span style="font-size:18px;line-height:2;"><strong>、主要功能与技术指标</strong></span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">1</span><span style="font-size:18px;line-height:2;">）生物发酵过程成套专用控制系统。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">包括生物发酵过程参数测量系统：发酵罐温度</span><span style="font-size:18px;line-height:2;">T</span><span style="font-size:18px;line-height:2;">、发酵罐压力</span><span style="font-size:18px;line-height:2;">P</span><span style="font-size:18px;line-height:2;">、发酵液体积</span><span style="font-size:18px;line-height:2;">V</span><span style="font-size:18px;line-height:2;">、空气流量</span><span style="font-size:18px;line-height:2;">FA</span><span style="font-size:18px;line-height:2;">、冷却水进出口温度</span><span style="font-size:18px;line-height:2;">T1</span><span style="font-size:18px;line-height:2;">和</span><span style="font-size:18px;line-height:2;">T2</span><span style="font-size:18px;line-height:2;">、搅拌马达转速</span><span style="font-size:18px;line-height:2;">RPM</span><span style="font-size:18px;line-height:2;">、搅拌马达电流</span><span style="font-size:18px;line-height:2;">I</span><span style="font-size:18px;line-height:2;">、泡沫高度</span><span style="font-size:18px;line-height:2;">H</span><span style="font-size:18px;line-height:2;">等发酵过程物理参数；</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">值和溶解氧浓度</span><span style="font-size:18px;line-height:2;">Do</span><span style="font-size:18px;line-height:2;">等发酵过程化学参数；生物质呼吸代谢参数、生物质浓度、代谢产物浓度、底物浓度以及生物比生长速率、底物消耗速率和产物形成速率等发酵过程生物参数。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">生物发酵过程常规控制系统：消泡控制、罐温控制、罐压控制、</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">控制、溶氧控制、补料控制等。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">生物发酵过程建模、先进控制与优化：</span><span style="font-size:18px;line-height:2;">pH</span><span style="font-size:18px;line-height:2;">、反应温度的优化曲线控制、培养基添加过程优化策略、传递过程优化策略等。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">2</span><span style="font-size:18px;line-height:2;">）合成反应过程成套专用控制系统。以间歇生产过程综合经济指标最优为目标，集间歇生产管理和间歇生产过程控制为一体的间歇控制系统。它除了包括程序间歇控制系统的全部功能外，还有配方处理、过程优化、在线或离线的统计过程控制、批量生产管理、计划与调度、能量管理等功能。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">3</span><span style="font-size:18px;line-height:2;">）中药提取过程成套专用控制系统：现代中药制备工艺包括：药材</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水洗</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">烘干</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">切碎</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水提取三次</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">过滤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">树脂吸附</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">水洗涤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">洗脱</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">减压浓缩</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">醇沉</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">过滤</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">减压浓缩</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">低温干燥或喷雾干燥</span><span style="font-size:18px;line-height:2;">-&gt;</span><span style="font-size:18px;line-height:2;">成品；中药提取生产过程，是依据</span><span style="font-size:18px;line-height:2;">GMP</span><span style="font-size:18px;line-height:2;">规范，按给定的配方，生产一定量产品的过程，是典型的间歇生产过程。其主要特点是：小批量、多品种，其特征是：物料流动的不连续性、物料和设备的非稳态性、产品及其工艺的不确定性和设备资源的动态调度分配。包括中药提取过程顺序控制、离散控制、调节控制、配方处理、设备管理、生产调度和跟踪功能、操作优化等。</span><span></span> 
-</p>
-<p style="text-indent:23.65pt;">
-	<span style="font-size:18px;line-height:2;">4</span><span style="font-size:18px;line-height:2;">）</span><span style="font-size:18px;line-height:2;">IMES</span><span style="font-size:18px;line-height:2;">制造执行系统：在过程控制系统基础上，基于非结构化数据管理系统的制药企业集成信息平台，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理等，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。</span><span></span> 
-</p>
+		"<p>"+
+			"<span>"+
+				"<span></span>"+
+				"<span>"+
+					"<span style=\"font-size:18px;line-height:2;\"></span>"+
+					"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\"><strong>1</strong></span>"+
+				"</span>"+
+				"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\"><strong>、行业概述</strong></span>"+
+			"</span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"随着企业规模不断扩大及产品多样化，完善工艺操作及工艺控制，充分挖掘技术及管理潜力，创造更佳经济效益，实现管理及决策的自动化和科学化日益显得重要，自动化技术与信息技术的应用，是制药企业发展的迫切需要。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">华凌科技针对制药行业设计集成的</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">DCS</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"自动化控制系统涉及生物化工过程关键工业设备或工业过程，如发酵罐、反应釜、提取罐、蒸发器等，进行软测量、过程控制、过程优化、系统集成与工程应用的总结提炼与考核完善，最终形成生物化工过程成套专用控制系统，并分品种按单元进行应用实施，获得单元设备最佳经济效益；随后，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。最终，建立全厂信息管理系统，实现综合自动化。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>2</strong></span>"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>、主要功能与技术指标</strong></span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">1</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">）生物发酵过程成套专用控制系统。</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">包括生物发酵过程参数测量系统：发酵罐温度</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">T</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、发酵罐压力</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">P</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、发酵液体积</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">V</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、空气流量</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">FA</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、冷却水进出口温度</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">T1</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">和</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">T2</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、搅拌马达转速</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">RPM</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、搅拌马达电流</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">I</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、泡沫高度</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">H</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">等发酵过程物理参数；</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">pH</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">值和溶解氧浓度</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">Do</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">等发酵过程化学参数；生物质呼吸代谢参数、生物质浓度、代谢产物浓度、底物浓度以及生物比生长速率、底物消耗速率和产物形成速率等发酵过程生物参数。</span>"+
+			"<span></span> "+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">生物发酵过程常规控制系统：消泡控制、罐温控制、罐压控制、</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">pH</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">控制、溶氧控制、补料控制等。</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">生物发酵过程建模、先进控制与优化：</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">pH</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">、反应温度的优化曲线控制、培养基添加过程优化策略、传递过程优化策略等。</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">2</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"）合成反应过程成套专用控制系统。以间歇生产过程综合经济指标最优为目标，集间歇生产管理和间歇生产过程控制为一体的间歇控制系统。它除了包括程序间歇控制系统的全部功能外，还有配方处理、过程优化、在线或离线的统计过程控制、批量生产管理、计划与调度、能量管理等功能。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">3</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">）中药提取过程成套专用控制系统：现代中药制备工艺包括：药材</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">水洗</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">烘干</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">切碎</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">水提取三次</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">过滤</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">树脂吸附</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">水洗涤</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">洗脱</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">减压浓缩</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">醇沉</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">过滤</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">减压浓缩</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">低温干燥或喷雾干燥</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">-&gt;</span><span style=\"font-size:18px;line-height:2;\">成品；中药提取生产过程，是依据</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">GMP</span><span style=\"font-size:18px;line-height:2;\">"+
+				"规范，按给定的配方，生产一定量产品的过程，是典型的间歇生产过程。其主要特点是：小批量、多品种，其特征是：物料流动的不连续性、物料和设备的非稳态性、产品及其工艺的不确定性和设备资源的动态调度分配。包括中药提取过程顺序控制、离散控制、调节控制、配方处理、设备管理、生产调度和跟踪功能、操作优化等。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">4</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">）</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">IMES</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"制造执行系统：在过程控制系统基础上，基于非结构化数据管理系统的制药企业集成信息平台，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理等，对单品种生产过程进行优化，并进一步实现多品种协调，获得整体最佳经济效益。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>3</strong></span>"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>、技术方案</strong></span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">1</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">）制药行业</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">DCS</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">控制系统采用先进控制、装备建模、过程优化技术，实现生物发酵过程成套专用控制系统、合成反应过程成套专用控制系统、中药提取过程成套专用控制系统；</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">2</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"）提供可定制扩展的制药行业控制工程行业算法库，通过设计院、设备制造商、工程公司、行业用户，不断提炼专家知识与工程经验，不断丰富行业自动化专业知识库，以领域知识为主体，在资源可重用、系统可重构的架构平台支撑下，在统一建模规范的基础上，通过继承、派生、重用、重构机制，显著提高项目工程设计与编程开发效率；"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">3</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">）开发实现多种网络驱动硬件模块，通过开放规范的</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">OPC</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"客户端与服务器接口，采用透明网络管理技术实现与第三方设备的数据通讯，构建分布式工程对象实时数据库，实现系统数据与外部设备数据的全局一致与统一接口，满足工业数据多实时性、多语义性、多时空性、多尺度性的信息集成与接口开放要求；基于实时数据库，实现制药企业单元装置与智能设备的网络互联与数据接口。"+
+			"</span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>4</strong></span>"+
+			"<span style=\"font-size:18px;line-height:2;\"><strong>、应用领域与使用效果</strong></span>"+
+			"<span></span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;line-height:2;\">制药企业通过实施青岛华凌科技有限公司</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">DCS</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">"+
+				"控制系统，首先，分品种按单元进行过程控制：完成发酵罐和反应釜等重要生产单元的参数检测与稳定控制，建立单元控制系统，使每台工艺设备发挥最佳效益；包括发酵车间、合成车间、热电厂自动化改造、科研中心、三废处理等；随后，构建生产调度与生产管理系统，实现处方管理、批次生产调度、生产线管理、批量跟踪及安全管理等，对单品种生产过程进行优化，并进一步实现多品种协调；最后，实现企业综合自动化。综合自动化系统实施后，发酵与后提取生产水平大幅度提高；染菌率进一步下降；主辅原材料消耗亦有所降低，产品综合成本每年下降"+
+			"</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">10%</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">以上，原料采购成本每年下降</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">6%</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">以上，销售收入每年增长</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">20%</span>"+
+			"<span style=\"font-size:18px;line-height:2;\">以上；经济效益显著。</span>"+
+		"</p>"+
+		"<p style=\"text-indent:23.65pt;\">"+
+			"<span style=\"font-size:18px;font-family:SimSun;line-height:2;\">"+
+				"<img alt=\"\" src=\"admin/kindeditor/attached/image/20161105/20161105150790109010.jpg\" width=\"700\" height=\"438\"><br>"+
+			"</span>"+
+		"</p>"+
+
 
 
   }
